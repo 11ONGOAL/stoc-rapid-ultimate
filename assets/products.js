@@ -716,7 +716,7 @@ window.PRODUCTS = [
     "stock": "493",
     "video": "",
     "category": "Casă și grădină",
-    "image": "assets/images/71WJSaYK1yL._AC_SL1200_.jpg",
+    "image": "assets/images/77772559-6fe2-48f9-adc7-331dcddd0171.jpg",
     "featured": false
   },
 ];
