@@ -731,4 +731,16 @@ window.PRODUCTS = [
     "image": "assets/images/fgghfg.png",
     "featured": false
   },
+   {
+    "id": 62,
+    "slug": "capsule-gandaci",
+    "name": "Capcane Anti-Gândaci - Momeală – Set 8 Capcane (Capsule)",
+    "description": "Set practic pentru realizarea filetelor interioare și exterioare pe țevi",
+    "price": "9 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/ChatGPT_Image_20_aug._2026,_17_44_37__1_.png",
+    "featured": false
+  },
 ];
