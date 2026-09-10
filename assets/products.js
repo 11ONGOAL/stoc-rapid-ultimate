@@ -711,7 +711,7 @@ window.PRODUCTS = [
     "id": 60,
     "slug": "set-filetare-tevi-pvc-2-in-1-interior-exterior",
     "name": "Set Filetare Țevi PVC 2-în-1, Interior și Exterior (set 3 buc.)",
-    "description": "Set practic pentru realizarea <strong>filetelor interioare și exterioare pe țevi",
+    "description": "Set practic pentru realizarea filetelor interioare și exterioare pe țevi",
     "price": "16 Lei",
     "stock": "493",
     "video": "",
