@@ -337,3 +337,47 @@ a{color:inherit;text-decoration:none}
   .brand img{width:168px;height:52px;padding:4px 8px}
   .footer-brand img{width:200px;height:64px}
 }
+
+/* Galerie imagini produs */
+.product-detail-image {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    align-content: start;
+}
+
+/* Toate imaginile */
+.product-detail-image img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 12px;
+}
+
+/* Imaginea principală */
+.product-detail-image img:first-child {
+    grid-column: 1 / -1;
+    height: 480px;
+}
+
+/* Cele două imagini secundare */
+.product-detail-image img:nth-child(2),
+.product-detail-image img:nth-child(3) {
+    height: 130px;
+    border: 1px solid #e2e8f0;
+    padding: 6px;
+}
+
+/* Telefon */
+@media (max-width: 768px) {
+    .product-detail-image img:first-child {
+        height: 350px;
+    }
+
+    .product-detail-image img:nth-child(2),
+    .product-detail-image img:nth-child(3) {
+        height: 100px;
+    }
+}
