@@ -719,4 +719,16 @@ window.PRODUCTS = [
     "image": "assets/images/77772559-6fe2-48f9-adc7-331dcddd0171.jpg",
     "featured": false
   },
+  {
+    "id": 61,
+    "slug": "set-filetare-2buc",
+    "name": "Set Filetare Țevi 20 mm și 25 mm – 2 Piese Metalice",
+    "description": "Set practic pentru realizarea filetelor interioare și exterioare pe țevi",
+    "price": "12 Lei",
+    "stock": "200",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/fgghfg.png",
+    "featured": false
+  },
 ];
