@@ -42,7 +42,7 @@ window.PRODUCTS = [
     "description": "Anti-Age, hidratare intensă și regenerare, cu niacinamide și colagen hidrolizat",
     "price": "14 Lei",
     "stock": "0",
-    "video": "https://i.imgur.com/DOTw9TX",
+    "video": "assets/images/wertrt.png",
     "category": "Beauty",
     "image": "assets/images/crema-faciala-pdrn-colagen-50ml.webp",
     "featured": false
