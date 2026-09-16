@@ -743,4 +743,16 @@ window.PRODUCTS = [
     "image": "assets/images/ChatGPT_Image_20_aug._2026,_17_44_37__1_.png",
     "featured": false
   },
+     {
+    "id": 63,
+    "slug": "sticla-portabila-cu-bol-pentru-caini-roz",
+    "name": "Sticlă Portabilă cu Bol pentru Câini, Roz",
+    "description": "Sticlă portabilă pentru apă, cu bol integrat, ideală pentru hidratarea câinilor în timpul plimbărilor, excursiilor sau călătoriilor.",
+    "price": "13.50 Lei",
+    "stock": "400",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/df97492c-dd35-4437-9dcb-7ce25e772a08.jpg",
+    "featured": false
+  },
 ];
