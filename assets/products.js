@@ -1,4 +1,64 @@
 window.PRODUCTS = [
+   {
+    "id": 59,
+    "slug": "patura-impermeabila",
+    "name": "Pătură Impermeabilă pentru Pat (120x80 cm)",
+    "description": "Protecție Anti-lichide",
+    "price": "14 Lei",
+    "stock": "1000",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/71WJSaYK1yL._AC_SL1200_.jpg",
+    "featured": false
+  },
+   {
+    "id": 60,
+    "slug": "set-filetare-tevi-pvc-2-in-1-interior-exterior",
+    "name": "Set Filetare Țevi PVC 2-în-1, Interior și Exterior (set 3 buc.)",
+    "description": "Set practic pentru realizarea filetelor interioare și exterioare pe țevi",
+    "price": "16 Lei",
+    "stock": "493",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/77772559-6fe2-48f9-adc7-331dcddd0171.jpg",
+    "featured": false
+  },
+  {
+    "id": 61,
+    "slug": "set-filetare-2buc",
+    "name": "Set Filetare Țevi 20 mm și 25 mm – 2 Piese Metalice",
+    "description": "Potrivit pentru lucrări de instalații, reparații și mentenanță",
+    "price": "12 Lei",
+    "stock": "200",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/fgghfg.png",
+    "featured": false
+  },
+  {
+    "id": 62,
+    "slug": "capsule-gandaci",
+    "name": "Capcane Anti-Gândaci - Momeală – Set 8 Capcane (Capsule)",
+    "description": "Set economic cu 8 bucăți",
+    "price": "9 Lei",
+    "stock": "500",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/ChatGPT_Image_20_aug._2026,_17_44_37__1_.png",
+    "featured": false
+  },
+    {
+    "id": 63,
+    "slug": "sticla-portabila-cu-bol-pentru-caini-roz",
+    "name": "Sticlă Portabilă cu Bol pentru Câini, Roz",
+    "description": "Sticlă portabilă pentru apă, cu bol integrat, ideală pentru hidratarea câinilor în timpul plimbărilor, excursiilor sau călătoriilor.",
+    "price": "13.50 Lei",
+    "stock": "400",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/df97492c-dd35-4437-9dcb-7ce25e772a08.jpg",
+    "featured": false
+  },
   {
     "id": 1,
     "slug": "saruri-pentru-baie-picioare-10-plicuri",
@@ -693,66 +753,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Beauty",
     "image": "assets/images/crema-pentru-hemoroizi-20g.webp",
-    "featured": false
-  },
-  {
-    "id": 59,
-    "slug": "patura-impermeabila",
-    "name": "Pătură Impermeabilă pentru Pat (120x80 cm)",
-    "description": "Protecție Anti-lichide",
-    "price": "14 Lei",
-    "stock": "1000",
-    "video": "",
-    "category": "Casă și grădină",
-    "image": "assets/images/71WJSaYK1yL._AC_SL1200_.jpg",
-    "featured": false
-  },
-  {
-    "id": 60,
-    "slug": "set-filetare-tevi-pvc-2-in-1-interior-exterior",
-    "name": "Set Filetare Țevi PVC 2-în-1, Interior și Exterior (set 3 buc.)",
-    "description": "Set practic pentru realizarea filetelor interioare și exterioare pe țevi",
-    "price": "16 Lei",
-    "stock": "493",
-    "video": "",
-    "category": "Casă și grădină",
-    "image": "assets/images/77772559-6fe2-48f9-adc7-331dcddd0171.jpg",
-    "featured": false
-  },
-  {
-    "id": 61,
-    "slug": "set-filetare-2buc",
-    "name": "Set Filetare Țevi 20 mm și 25 mm – 2 Piese Metalice",
-    "description": "Potrivit pentru lucrări de instalații, reparații și mentenanță",
-    "price": "12 Lei",
-    "stock": "200",
-    "video": "",
-    "category": "Casă și grădină",
-    "image": "assets/images/fgghfg.png",
-    "featured": false
-  },
-   {
-    "id": 62,
-    "slug": "capsule-gandaci",
-    "name": "Capcane Anti-Gândaci - Momeală – Set 8 Capcane (Capsule)",
-    "description": "Set economic cu 8 bucăți",
-    "price": "9 Lei",
-    "stock": "500",
-    "video": "",
-    "category": "Casă și grădină",
-    "image": "assets/images/ChatGPT_Image_20_aug._2026,_17_44_37__1_.png",
-    "featured": false
-  },
-     {
-    "id": 63,
-    "slug": "sticla-portabila-cu-bol-pentru-caini-roz",
-    "name": "Sticlă Portabilă cu Bol pentru Câini, Roz",
-    "description": "Sticlă portabilă pentru apă, cu bol integrat, ideală pentru hidratarea câinilor în timpul plimbărilor, excursiilor sau călătoriilor.",
-    "price": "13.50 Lei",
-    "stock": "400",
-    "video": "",
-    "category": "Casă și grădină",
-    "image": "assets/images/df97492c-dd35-4437-9dcb-7ce25e772a08.jpg",
     "featured": false
   },
 ];
