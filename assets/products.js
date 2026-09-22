@@ -556,7 +556,7 @@ window.PRODUCTS = [
     "slug": "kit-restaurare-piele-set-5-buc",
     "name": "Kit restaurare piele, set 5 buc.",
     "description": "Pastă pentru restaurarea pielii",
-    "price": "15 Lei",
+    "price": "18 Lei",
     "stock": "1500",
     "video": "https://i.imgur.com/PKXTx0Y",
     "category": "Casă și grădină",
