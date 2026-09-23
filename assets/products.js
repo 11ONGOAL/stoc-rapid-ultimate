@@ -743,4 +743,16 @@ window.PRODUCTS = [
     "image": "assets/images/crema-pentru-hemoroizi-20g.webp",
     "featured": false
   },
+    {
+    "id": 64,
+    "slug": "ultra-adeziv-anti-scurgeri-strongfix",
+    "name": "Ultra Adeziv Anti-Scurgeri StrongFix ",
+    "description": "Transformă repararea scurgerilor într-o sarcină simplă și eficientă cu agentul nostru rezistent la apă și scurgeri.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și Grădină",
+    "image": "assets/images/Media1_dc57a0f9-af5b-4c76-913b-06cd214261d1.webp",
+    "featured": false
+  },
 ];
