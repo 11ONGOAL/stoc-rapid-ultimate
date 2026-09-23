@@ -2,7 +2,7 @@ window.PRODUCTS = [
        {
     "id": 64,
     "slug": "ultra-adeziv-anti-scurgeri-strongfix",
-    "name": "Ultra Adeziv Anti-Scurgeri StrongFix ",
+    "name": "Ultra Adeziv Anti-Scurgeri StrongFix 100g. ",
     "description": "Transformă repararea scurgerilor într-o sarcină simplă și eficientă cu agentul nostru rezistent la apă și scurgeri.",
     "price": "12 Lei",
     "stock": "1000 Buc.",
