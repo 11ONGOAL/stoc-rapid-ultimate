@@ -41,7 +41,7 @@ window.PRODUCTS = [
     "name": "Set Filetare Țevi 20 mm și 25 mm – 2 Piese Metalice",
     "description": "Potrivit pentru lucrări de instalații, reparații și mentenanță",
     "price": "12 Lei",
-    "stock": "200",
+    "stock": "0",
     "video": "",
     "category": "Casă și grădină",
     "image": "assets/images/fgghfg.png",
