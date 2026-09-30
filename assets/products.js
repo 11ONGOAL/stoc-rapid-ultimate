@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+          {
+    "id": 65,
+    "slug": "unguent-pentru-indepartarea-negilor-20g",
+    "name": "Unguent pentru Îndepărtarea Negilor, 20 g ",
+    "description": "Unguent topic pentru îngrijirea localizată a negilor și zonelor cutanate",
+    "price": "9 Lei",
+    "stock": "947 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Screenshot_2026-08-27_142009.jpg",
+    "featured": false
+  },
        {
     "id": 64,
     "slug": "ultra-adeziv-anti-scurgeri-strongfix",
