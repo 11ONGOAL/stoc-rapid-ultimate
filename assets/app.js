@@ -74,10 +74,13 @@
     return raw === "0" || raw.startsWith("0 ") || raw.includes("indisponibil") || raw.includes("epuizat");
   }
 
-  function whatsappLink(product) {
-    const text = `Bună ziua, doresc detalii și ofertă pentru produsul: ${product.name}.`;
-    return `https://wa.me/40739950885?text=${encodeURIComponent(text)}`;
-  }
+ function whatsappLink(product) {
+  const text = isOutOfStock(product.stock)
+    ? `Bună ziua, doresc o cotație pentru produsul: ${product.name}. Vă rog să îmi comunicați prețul, cantitatea minimă și termenul de livrare.`
+    : `Bună ziua, doresc detalii și ofertă pentru produsul: ${product.name}.`;
+
+  return `https://wa.me/40739950885?text=${encodeURIComponent(text)}`;
+}
 
   function productCard(product) {
     const out = isOutOfStock(product.stock);
