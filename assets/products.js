@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+           {
+    "id": 67,
+    "slug": "tablete-fertilizante-plante-22-buc.",
+    "name": "Tablete Fertilizante pentru Plante (22 buc.)",
+    "description": "Tablete fertilizante pentru plante, set de 22 bucăți, concepute pentru hrănirea treptată a plantelor ornamentale și de grădină.",
+    "price": "5 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Casă și Grădină",
+    "image": "assets/images/Screenshot 2026-09-30 162540.png",
+    "featured": false
+  },
           {
     "id": 66,
     "slug": "sac-spalare-incaltaminte",
