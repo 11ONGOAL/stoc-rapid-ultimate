@@ -1,7 +1,19 @@
 window.PRODUCTS = [
            {
+    "id": 68,
+    "slug": "spray-dureri-dentare-gingivale-20ml",
+    "name": "Spray pentru Dureri Dentare și Gingivale, 20 ml",
+    "description": "Sprayul Warzn pentru dureri dentare și gingivale este conceput pentru a oferi confort oral și pentru a calma rapid disconfortul apărut la nivelul dinților și gingiilor.",
+    "price": "9 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Imagine ChatGPT 29 sept. 2026, 13_34_24-2.png",
+    "featured": false
+  },
+           {
     "id": 67,
-    "slug": "tablete-fertilizante-plante-22-buc.",
+    "slug": "tablete-fertilizante-plante-22-buc",
     "name": "Tablete Fertilizante pentru Plante (22 buc.)",
     "description": "Tablete fertilizante pentru plante, set de 22 bucăți, concepute pentru hrănirea treptată a plantelor ornamentale și de grădină.",
     "price": "5 Lei",
