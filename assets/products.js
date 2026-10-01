@@ -1,5 +1,17 @@
 window.PRODUCTS = [
           {
+    "id": 66,
+    "slug": "sac-spalare-incaltaminte",
+    "name": "Sac pentru Spălarea Încălțămintei",
+    "description": "Sac practic pentru spălarea pantofilor și adidașilor în mașina de spălat.",
+    "price": "15 Lei",
+    "stock": "300 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/71UZYfIF-6L._AC_SL1500_.jpg",
+    "featured": false
+  },
+          {
     "id": 65,
     "slug": "unguent-pentru-indepartarea-negilor-20g",
     "name": "Unguent pentru Îndepărtarea Negilor, 20g ",
