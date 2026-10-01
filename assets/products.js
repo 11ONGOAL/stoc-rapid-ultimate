@@ -31,7 +31,7 @@ window.PRODUCTS = [
     "price": "15 Lei",
     "stock": "300 Buc.",
     "video": "",
-    "category": "Beauty",
+    "category": "Casă și Grădină",
     "image": "assets/images/71UZYfIF-6L._AC_SL1500_.jpg",
     "featured": false
   },
