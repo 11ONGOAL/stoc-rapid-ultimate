@@ -8,7 +8,7 @@ window.PRODUCTS = [
     "stock": "500 Buc.",
     "video": "",
     "category": "Beauty",
-    "image": "assets/images/Imagine ChatGPT 29 sept. 2026, 13_34_24-2.png",
+    "image": "assets/images/zsewer.png",
     "featured": false
   },
            {
