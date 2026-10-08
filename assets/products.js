@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+             {
+    "id": 70,
+    "slug": "centura-ems-abdomen-brate",
+    "name": "Centură EMS pentru Abdomen și Brațe cu Electrozi",
+    "description": "Cu acest aparat electric ce are ventuze, veți ajuta la tonifierea zonelor lăsate ale corpului.",
+    "price": "27 Lei",
+    "stock": "300 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/imgi_11_1utxh004tg50d-tu.jpg",
+    "featured": false
+  },
             {
     "id": 69,
     "slug": "aparat-masaj-anticelulitic",
