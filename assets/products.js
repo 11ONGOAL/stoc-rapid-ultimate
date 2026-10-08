@@ -2,7 +2,7 @@ window.PRODUCTS = [
             {
     "id": 69,
     "slug": "aparat-masaj-anticelulitic",
-    "name": "Aparat de masaj anticelulitic 6 trepte",
+    "name": "Aparat de masaj anticelulitic 6 trepte (2x10 ml ulei chinezesc pentru masaj)",
     "description": "Cu acest aparat electric ce are ventuze, veți ajuta la tonifierea zonelor lăsate ale corpului.",
     "price": "45 Lei",
     "stock": "500 Buc.",
