@@ -863,4 +863,16 @@ window.PRODUCTS = [
     "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-422236.webp",
     "featured": false
   },
+  {
+  "id": 75,
+  "slug": "irigator-bucal-electric-greenovive-a16-200-ml-negru",
+  "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
+  "description": "Irigator bucal electric Greenovive A16, rezervor 200 ml, 3 moduri de curățare și 4 capete.",
+  "price": "0 Lei",
+  "stock": "0 Buc.",
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/rty.png",
+  "featured": false
+},
 ];
