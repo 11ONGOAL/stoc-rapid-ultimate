@@ -831,7 +831,7 @@ window.PRODUCTS = [
     "id": 72,
     "slug": "ceas-barbati-argintiu-cu-pietre-stralucitoare",
     "name": "Ceas Bărbați Argintiu cu Pietre Strălucitoare",
-    "description": " Adaugă un plus de stil și eleganță ținutelor tale cu acest <strong>ceas bărbătesc Luxury Diamond</strong>",
+    "description": " Adaugă un plus de stil și eleganță ținutelor tale cu acest ceas bărbătesc Luxury Diamond",
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
