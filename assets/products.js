@@ -835,8 +835,20 @@ window.PRODUCTS = [
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
-    "category": "Beauty",
+    "category": "Gadgeturi și accesorii",
     "image": "assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg",
+    "featured": false
+  },
+  {
+    "id": 73,
+    "slug": "benzi-pentru-albirea-dintilor-3d-white-28-bucati",
+    "name": "Benzi pentru Albirea Dinților 3D White – 28 Bucăți",
+    "description": " Un zâmbet mai alb și mai strălucitor, chiar la tine acasă!",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "61a7Mq4l5RL._AC_SL1280_.jpg",
     "featured": false
   },
 ];
