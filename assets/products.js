@@ -815,4 +815,16 @@ window.PRODUCTS = [
     "image": "assets/images/laptop-stand.jpg",
     "featured": true
   },
+  {
+    "id": 71,
+    "slug": "crema-fata-antirid-50g",
+    "name": "Cremă de Față Antirid 50g",
+    "description": "Redescoperă frumusețea tenului tău cu Crema Antirid Dragon Blood – pentru un aspect mai neted, ferm și luminos!",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/71R5tT3f+tL._AC_SL1500_.jpg",
+    "featured": false
+  },
 ];
