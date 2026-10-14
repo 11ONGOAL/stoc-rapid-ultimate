@@ -848,7 +848,7 @@ window.PRODUCTS = [
     "stock": "0 Buc.",
     "video": "",
     "category": "Beauty",
-    "image": "61a7Mq4l5RL._AC_SL1280_.jpg",
+    "image": "assets/images/61a7Mq4l5RL._AC_SL1280_.jpg",
     "featured": false
   },
 ];
