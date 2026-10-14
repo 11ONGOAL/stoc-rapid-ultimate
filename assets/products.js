@@ -864,4 +864,3 @@ window.PRODUCTS = [
     "featured": false
   },
 ];
-];
