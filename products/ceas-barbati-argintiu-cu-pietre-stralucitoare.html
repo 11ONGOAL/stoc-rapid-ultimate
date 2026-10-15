@@ -13,38 +13,95 @@
   .product-detail { align-items: flex-start !important; }
   .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
 }
-.product-gallery .gallery-thumbnails {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
-  margin-top: 12px;
+
+/* Galerie identică în structură cu paginile HelpShip: imagine principală + miniaturi într-un singur rând. */
+.product-detail-image.product-gallery {
+  display: block !important;
+  width: 100%;
+  min-width: 0;
 }
-.product-gallery .gallery-thumbnails button {
-  border: 1px solid #d9dfe6;
-  background: #fff;
-  border-radius: 8px;
-  padding: 3px;
-  cursor: pointer;
+.product-gallery .gallery-frame {
+  display: block !important;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  background: #f6f7fa;
+  border-radius: 14px;
   overflow: hidden;
 }
-.product-gallery .gallery-thumbnails button[aria-pressed="true"] {
-  border: 2px solid #a7343d;
-}
-.product-gallery .gallery-thumbnails img {
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  display: block;
-  object-fit: cover;
-}
 .product-gallery #mainProductImage {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  border-radius: 10px;
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  object-fit: contain !important;
+  background: #fff;
+  border-radius: 9px;
 }
-.detail-stock.out-of-stock {
-  color: #ae2b34;
+.product-detail-image.product-gallery .gallery-thumbnails {
+  display: grid !important;
+  grid-template-columns: none !important;
+  grid-template-rows: minmax(0, 1fr) !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: calc((100% - 30px) / 4) !important;
+  gap: 10px !important;
+  align-items: start !important;
+  width: 100%;
+  min-width: 0;
+  margin-top: 15px !important;
+  padding: 0 0 7px;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  margin: 0 !important;
+  padding: 5px !important;
+  background: #fff;
+  border: 1px solid #d8dfe8;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  scroll-snap-align: start;
+}
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+}
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb[aria-pressed="true"] {
+  border: 2px solid #c03942 !important;
+  padding: 4px !important;
+}
+.product-gallery .gallery-thumb:focus-visible {
+  outline: 3px solid #163868;
+  outline-offset: 2px;
+}
+.detail-stock.out-of-stock { color: #ae2b34; }
+@media (max-width: 650px) {
+  .product-detail-image.product-gallery .gallery-thumbnails {
+    grid-auto-columns: calc((100% - 16px) / 3) !important;
+    gap: 8px !important;
+  }
 }
 </style>
 </head>
@@ -89,26 +146,31 @@
 
     <section class="product-detail">
       <div class="product-detail-image product-gallery">
-        <img id="mainProductImage" src="../assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg" alt="Ceas bărbătesc argintiu cu pietre strălucitoare purtat la mână"/>
+        <div class="gallery-frame">
+          <img id="mainProductImage" src="../assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg" alt="Ceas bărbătesc argintiu cu pietre strălucitoare purtat la mână" fetchpriority="high"/>
+        </div>
 
-        <div class="gallery-thumbnails" aria-label="Galerie imagini produs">
-          <button type="button" aria-label="Imaginea 1" aria-pressed="true" onclick="selectProductImage(this)">
+        <div class="gallery-thumbnails" id="galleryThumbnails" aria-label="Galerie imagini produs">
+          <button type="button" class="gallery-thumb" aria-label="Imaginea 1 din 6" aria-pressed="true" onclick="selectProductImage(this)">
+            <img src="../assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg" alt="Ceas bărbătesc argintiu cu pietre strălucitoare purtat la mână"/>
+          </button>
+          <button type="button" class="gallery-thumb" aria-label="Imaginea 2 din 6" aria-pressed="false" onclick="selectProductImage(this)">
             <img src="../assets/images/06b3c151-8b34-4642-8a2d-22bd0834e212.jpg" alt="Ceas bărbătesc argintiu cu pietre strălucitoare purtat la mână"/>
           </button>
 
-          <button type="button" aria-label="Imaginea 2" aria-pressed="false" onclick="selectProductImage(this)">
+          <button type="button" class="gallery-thumb" aria-label="Imaginea 3 din 6" aria-pressed="false" onclick="selectProductImage(this)">
             <img src="../assets/images/63bc1343-8f44-4bc8-b1ce-674b664785bb.jpg" alt="Ceas bărbătesc Luxury Diamond pe fundal negru"/>
           </button>
 
-          <button type="button" aria-label="Imaginea 3" aria-pressed="false" onclick="selectProductImage(this)">
+          <button type="button" class="gallery-thumb" aria-label="Imaginea 4 din 6" aria-pressed="false" onclick="selectProductImage(this)">
             <img src="../assets/images/a3ae9803-8206-4e2f-a9ab-bd78124f6a91.jpg" alt="Ceas bărbătesc argintiu și brățară cu pietre strălucitoare"/>
           </button>
 
-          <button type="button" aria-label="Imaginea 4" aria-pressed="false" onclick="selectProductImage(this)">
+          <button type="button" class="gallery-thumb" aria-label="Imaginea 5 din 6" aria-pressed="false" onclick="selectProductImage(this)">
             <img src="../assets/images/d153e715-0975-4908-9d71-bd98f6ddec5b.jpg" alt="Ceas bărbătesc argintiu purtat împreună cu brățară metalică"/>
           </button>
 
-          <button type="button" aria-label="Imaginea 5" aria-pressed="false" onclick="selectProductImage(this)">
+          <button type="button" class="gallery-thumb" aria-label="Imaginea 6 din 6" aria-pressed="false" onclick="selectProductImage(this)">
             <img src="../assets/images/fgjh.png" alt="Prim-plan ceas argintiu cu cifre romane și pietre decorative"/>
           </button>
         </div>
@@ -262,6 +324,9 @@ function selectProductImage(button) {
   });
 }
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
