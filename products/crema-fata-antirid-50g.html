@@ -9,18 +9,19 @@
 <link href="../assets/images/favicon.png" rel="icon"/>
 <link href="../assets/styles.css" rel="stylesheet"/>
 <style>
+/* Păstrăm alinierea originală a paginii. */
 @media (min-width: 900px) {
   .product-detail { align-items: flex-start !important; }
   .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
 }
 
-/* Galerie identică în structură cu paginile HelpShip: imagine principală + miniaturi într-un singur rând. */
+/* Galerie foto: imagine mare, miniaturi pătrate pe un singur rând. */
 .product-detail-image.product-gallery {
   display: block !important;
   width: 100%;
   min-width: 0;
 }
-.product-gallery .gallery-frame {
+.product-detail-image.product-gallery .gallery-frame {
   display: block !important;
   box-sizing: border-box;
   width: 100%;
@@ -29,7 +30,7 @@
   border-radius: 14px;
   overflow: hidden;
 }
-.product-gallery #mainProductImage {
+.product-detail-image.product-gallery #mainProductImage {
   display: block !important;
   width: 100% !important;
   max-width: 100% !important;
@@ -42,21 +43,24 @@
 .product-detail-image.product-gallery .gallery-thumbnails {
   display: grid !important;
   grid-template-columns: none !important;
-  grid-template-rows: minmax(0, 1fr) !important;
+  grid-template-rows: auto !important;
   grid-auto-flow: column !important;
   grid-auto-columns: calc((100% - 30px) / 4) !important;
   gap: 10px !important;
-  align-items: start !important;
+  align-items: stretch !important;
   width: 100%;
   min-width: 0;
   margin-top: 15px !important;
-  padding: 0 0 7px;
+  padding: 0 0 5px !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
   scroll-snap-type: x proximity;
   overscroll-behavior-x: contain;
-  scrollbar-width: thin;
+  scrollbar-width: none; /* ascunde bara gri, păstrează derularea */
   -webkit-overflow-scrolling: touch;
+}
+.product-detail-image.product-gallery .gallery-thumbnails::-webkit-scrollbar {
+  display: none;
 }
 .product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb {
   display: flex !important;
@@ -73,7 +77,7 @@
   background: #fff;
   border: 1px solid #d8dfe8;
   border-radius: 10px;
-  overflow: hidden;
+  overflow: hidden !important;
   cursor: pointer;
   scroll-snap-align: start;
 }
@@ -92,7 +96,7 @@
   border: 2px solid #c03942 !important;
   padding: 4px !important;
 }
-.product-gallery .gallery-thumb:focus-visible {
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb:focus-visible {
   outline: 3px solid #163868;
   outline-offset: 2px;
 }
@@ -102,36 +106,6 @@
     grid-auto-columns: calc((100% - 16px) / 3) !important;
     gap: 8px !important;
   }
-}
-  .product-detail-image.product-gallery .gallery-thumbnails {
-    display: grid !important;
-    grid-template-columns: none !important;
-    grid-auto-flow: column !important;
-    grid-auto-columns: calc((100% - 30px) / 4) !important;
-    gap: 10px !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
-}
-
-.product-gallery .gallery-thumb {
-    width: 100% !important;
-    aspect-ratio: 1 / 1 !important;
-    box-sizing: border-box !important;
-    overflow: hidden !important;
-}
-
-.product-gallery .gallery-thumb img {
-    display: block !important;
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: contain !important;
-}
-
-@media (max-width: 650px) {
-    .product-detail-image.product-gallery .gallery-thumbnails {
-        grid-auto-columns: calc((100% - 16px) / 3) !important;
-        gap: 8px !important;
-    }
 }
 </style>
 </head>
@@ -169,14 +143,16 @@
     </nav>
     <section class="product-detail">
       <div class="product-detail-image product-gallery">
-        <img id="mainProductImage" src="../assets/images/dfhgd.png" alt="Cremă de Față Antirid Dragon Blood 50g - produs și ambalaj"/>
+        <div class="gallery-frame">
+          <img id="mainProductImage" src="../assets/images/dfhgd.png" alt="Cremă de Față Antirid Dragon Blood 50g - produs și ambalaj"/>
+        </div>
         <div class="gallery-thumbnails" aria-label="Galerie imagini produs">
-          <button type="button" aria-label="Imaginea 1" aria-pressed="true" onclick="selectProductImage(this)"><img src="../assets/images/71R5tT3f+tL._AC_SL1500_.jpg" alt="Cremă Dragon Blood - ambalaj"/></button>
-          <button type="button" aria-label="Imaginea 2" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/dfhgd.png" alt="Cremă Dragon Blood - recipient"/></button>
-          <button type="button" aria-label="Imaginea 3" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/ewrt.png" alt="Cremă antirid Dragon Blood"/></button>
-          <button type="button" aria-label="Imaginea 4" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/hgj.png" alt="Ingrediente prezentate în materialul produsului"/></button>
-          <button type="button" aria-label="Imaginea 5" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/truyu.png" alt="Textura cremei Dragon Blood"/></button>
-          <button type="button" aria-label="Imaginea 6" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/vbnm.png" alt="Prezentare crema antirid"/></button>
+          <button class="gallery-thumb" type="button" aria-label="Imaginea 1" aria-pressed="true" onclick="selectProductImage(this)"><img src="../assets/images/dfhgd.png" alt="Cremă de Față Antirid Dragon Blood 50g - produs și ambalaj"/></button>
+          <button class="gallery-thumb" type="button" aria-label="Imaginea 2" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/71R5tT3f+tL._AC_SL1500_.jpg" alt="Cremă Dragon Blood - ambalaj"/></button>
+          <button class="gallery-thumb" type="button" aria-label="Imaginea 3" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/ewrt.png" alt="Cremă antirid Dragon Blood"/></button>
+          <button class="gallery-thumb" type="button" aria-label="Imaginea 4" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/hgj.png" alt="Ingrediente prezentate în materialul produsului"/></button>
+          <button class="gallery-thumb" type="button" aria-label="Imaginea 5" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/truyu.png" alt="Textura cremei Dragon Blood"/></button>
+          <button class="gallery-thumb" type="button" aria-label="Imaginea 6" aria-pressed="false" onclick="selectProductImage(this)"><img src="../assets/images/vbnm.png" alt="Prezentare crema antirid"/></button>
         </div>
       </div>
       <div class="product-detail-copy">
@@ -247,5 +223,7 @@ function selectProductImage(button) {
   document.querySelectorAll('.gallery-thumbnails button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
 }
 </script>
+</body>
+</html>
 </body>
 </html>
