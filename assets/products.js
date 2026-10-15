@@ -887,4 +887,16 @@ window.PRODUCTS = [
   "image": "assets/images/vcbcvb.png",
   "featured": false
 },
+   {
+  "id": 77,
+  "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
+  "name": "Fond de Ten cu Colagen și Burețel Inclus",
+  "description": "Fondul de ten CC Cream cu extract din secreție de melc și colagen, conceput pentru un machiaj rapid.",
+  "price": "0 Lei",
+  "stock": "0 Buc.",
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/fond-ten-colagen-aplicare.jpg",
+  "featured": false
+},
 ];
