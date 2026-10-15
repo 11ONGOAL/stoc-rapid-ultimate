@@ -13,20 +13,95 @@
   .product-detail { align-items: flex-start !important; }
   .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
 }
-.product-gallery .gallery-thumbnails { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 10px; margin-top: 12px; }
-.product-gallery .gallery-thumbnails button { border: 1px solid #d9dfe6; background: #fff; border-radius: 8px; padding: 3px; cursor: pointer; overflow: hidden; }
-.product-gallery .gallery-thumbnails button[aria-pressed="true"] { border: 2px solid #a7343d; }
-.product-gallery .gallery-thumbnails img { width: 100%; aspect-ratio: 1 / 1; display: block; object-fit: cover; }
-.product-gallery #mainProductImage { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 10px; }
+
+/* Galerie identică în structură cu paginile HelpShip: imagine principală + miniaturi într-un singur rând. */
+.product-detail-image.product-gallery {
+  display: block !important;
+  width: 100%;
+  min-width: 0;
+}
+.product-gallery .gallery-frame {
+  display: block !important;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  background: #f6f7fa;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.product-gallery #mainProductImage {
+  display: block !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1;
+  object-fit: contain !important;
+  background: #fff;
+  border-radius: 9px;
+}
+.product-detail-image.product-gallery .gallery-thumbnails {
+  display: grid !important;
+  grid-template-columns: none !important;
+  grid-template-rows: minmax(0, 1fr) !important;
+  grid-auto-flow: column !important;
+  grid-auto-columns: calc((100% - 30px) / 4) !important;
+  gap: 10px !important;
+  align-items: start !important;
+  width: 100%;
+  min-width: 0;
+  margin-top: 15px !important;
+  padding: 0 0 7px;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  scroll-snap-type: x proximity;
+  overscroll-behavior-x: contain;
+  scrollbar-width: thin;
+  -webkit-overflow-scrolling: touch;
+}
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  aspect-ratio: 1 / 1 !important;
+  margin: 0 !important;
+  padding: 5px !important;
+  background: #fff;
+  border: 1px solid #d8dfe8;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  scroll-snap-align: start;
+}
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  margin: 0 !important;
+}
+.product-detail-image.product-gallery .gallery-thumbnails .gallery-thumb[aria-pressed="true"] {
+  border: 2px solid #c03942 !important;
+  padding: 4px !important;
+}
+.product-gallery .gallery-thumb:focus-visible {
+  outline: 3px solid #163868;
+  outline-offset: 2px;
+}
 .detail-stock.out-of-stock { color: #ae2b34; }
+@media (max-width: 650px) {
   .product-detail-image.product-gallery .gallery-thumbnails {
-    display: grid !important;
-    grid-template-columns: none !important;
-    grid-auto-flow: column !important;
-    grid-auto-columns: calc((100% - 30px) / 4) !important;
-    gap: 10px !important;
-    overflow-x: auto !important;
-    overflow-y: hidden !important;
+    grid-auto-columns: calc((100% - 16px) / 3) !important;
+    gap: 8px !important;
+  }
 }
 </style>
 </head>
