@@ -19,6 +19,15 @@
 .product-gallery .gallery-thumbnails img { width: 100%; aspect-ratio: 1 / 1; display: block; object-fit: cover; }
 .product-gallery #mainProductImage { display: block; width: 100%; height: auto; object-fit: contain; border-radius: 10px; }
 .detail-stock.out-of-stock { color: #ae2b34; }
+  .product-detail-image.product-gallery .gallery-thumbnails {
+    display: grid !important;
+    grid-template-columns: none !important;
+    grid-auto-flow: column !important;
+    grid-auto-columns: calc((100% - 30px) / 4) !important;
+    gap: 10px !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+}
 </style>
 </head>
 <body>
