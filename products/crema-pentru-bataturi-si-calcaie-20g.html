@@ -16,34 +16,87 @@
       .product-detail-copy { align-self: flex-start !important; margin-top: 0 !important; padding-top: 0 !important; }
     }
 
-    /* Galerie foto: imagine principală și miniaturi egale */
-    .product-detail-image.product-gallery { min-width: 0; }
-    .product-gallery .gallery-frame { background: #f6f7fa; border-radius: 14px; padding: 12px; overflow: hidden; }
-    .product-gallery #mainProductImage {
-      display: block; width: 100%; height: auto; aspect-ratio: 1 / 1;
-      object-fit: contain; border-radius: 9px; background: #fff;
+    /* Galerie foto corectată: fotografie mare deasupra miniaturilor.
+       Forțăm un singur flux vertical deoarece styles.css poate defini
+       .product-detail-image ca grid/flex. */
+    .product-detail-image.product-gallery {
+      display: block !important;
+      width: 100%;
+      min-width: 0;
+      min-height: 0 !important;
+      height: auto !important;
     }
-    .product-gallery .gallery-thumbnails {
-      display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
-      gap: 10px; margin-top: 12px;
+    .product-detail-image.product-gallery .gallery-frame {
+      display: block !important;
+      width: 100%;
+      box-sizing: border-box;
+      background: #f6f7fa;
+      border-radius: 14px;
+      padding: 12px;
+      overflow: hidden;
     }
-    .product-gallery .gallery-thumb {
-      display: flex; align-items: center; justify-content: center;
-      min-width: 0; padding: 4px; margin: 0; aspect-ratio: 1 / 1;
-      border: 1px solid #d8dfe8; border-radius: 9px; background: #fff;
-      cursor: pointer; overflow: hidden;
+    .product-detail-image.product-gallery #mainProductImage {
+      display: block !important;
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
+      aspect-ratio: 1 / 1;
+      object-fit: contain;
+      background: #fff;
+      border-radius: 9px;
     }
-    .product-gallery .gallery-thumb[aria-pressed="true"] { border: 2px solid #af3442; padding: 3px; }
-    .product-gallery .gallery-thumb:focus-visible { outline: 3px solid #163868; outline-offset: 2px; }
-    .product-gallery .gallery-thumb img {
-      display: block; width: 100%; height: 100%; max-height: none;
-      object-fit: contain; border-radius: 5px; margin: 0;
+    .product-detail-image.product-gallery .gallery-thumbnails {
+      display: grid !important;
+      grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+      gap: 10px !important;
+      width: 100%;
+      box-sizing: border-box;
+      position: static !important;
+      margin-top: 12px !important;
+    }
+    .product-detail-image.product-gallery .gallery-thumb {
+      display: flex !important;
+      align-items: center !important;
+      justify-content: center !important;
+      width: 100% !important;
+      min-width: 0;
+      min-height: 0 !important;
+      height: auto !important;
+      aspect-ratio: 1 / 1;
+      padding: 5px !important;
+      margin: 0 !important;
+      border: 1px solid #d8dfe8;
+      border-radius: 9px;
+      background: #fff;
+      cursor: pointer;
+      overflow: hidden;
+    }
+    .product-detail-image.product-gallery .gallery-thumb[aria-pressed="true"] {
+      border: 2px solid #af3442 !important;
+      padding: 4px !important;
+    }
+    .product-detail-image.product-gallery .gallery-thumb:focus-visible {
+      outline: 3px solid #163868;
+      outline-offset: 2px;
+    }
+    .product-detail-image.product-gallery .gallery-thumb img {
+      display: block !important;
+      width: 100% !important;
+      height: 100% !important;
+      min-height: 0 !important;
+      max-height: none !important;
+      object-fit: contain !important;
+      margin: 0 !important;
+      border-radius: 5px;
     }
     .detail-stock.out-of-stock { color: #b4232c; }
     .product-specs { padding-left: 21px; }
     .product-specs li { margin-bottom: 8px; }
     @media (max-width: 480px) {
-      .product-gallery .gallery-thumbnails { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+      .product-detail-image.product-gallery .gallery-thumbnails {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 8px !important;
+      }
     }
   </style>
 </head>
@@ -89,16 +142,16 @@
             <img id="mainProductImage" src="../assets/images/vcbcvb.png" alt="Cremă Bee Venom pentru bătături și călcâie 20g, tub și cutie" />
           </div>
           <div class="gallery-thumbnails" id="galleryThumbnails" aria-label="Galerie foto cremă pentru bătături și călcâie">
-            <button type="button" class="gallery-thumb" aria-label="Imaginea 1 din 5" aria-pressed="true" onclick="selectProductImage(this)">
+            <button type="button" class="gallery-thumb" aria-label="Imaginea 1 din 4" aria-pressed="false" onclick="selectProductImage(this)">
               <img src="../assets/images/zxfws.png" alt="Cremă Bee Venom 20g, tub și ambalaj de prezentare" loading="eager" />
             </button>
-            <button type="button" class="gallery-thumb" aria-label="Imaginea 2 din 5" aria-pressed="false" onclick="selectProductImage(this)">
+            <button type="button" class="gallery-thumb" aria-label="Imaginea 2 din 4" aria-pressed="false" onclick="selectProductImage(this)">
               <img src="../assets/images/qwrt.png" alt="Prezentare a aplicării cremei Bee Venom pe talpă" loading="lazy" />
             </button>
-            <button type="button" class="gallery-thumb" aria-label="Imaginea 3 din 5" aria-pressed="false" onclick="selectProductImage(this)">
+            <button type="button" class="gallery-thumb" aria-label="Imaginea 3 din 4" aria-pressed="false" onclick="selectProductImage(this)">
               <img src="../assets/images/mhj.png" alt="Cremă pentru bătături și călcâie, utilizare pe picior" loading="lazy" />
             </button>
-            <button type="button" class="gallery-thumb" aria-label="Imaginea 4 din 5" aria-pressed="false" onclick="selectProductImage(this)">
+            <button type="button" class="gallery-thumb" aria-label="Imaginea 4 din 4" aria-pressed="false" onclick="selectProductImage(this)">
               <img src="../assets/images/ghjk.jpg" alt="Prezentare cremă Bee Venom pentru îngrijirea pielii" loading="lazy" />
             </button>
           </div>
