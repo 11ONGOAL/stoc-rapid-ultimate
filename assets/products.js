@@ -144,18 +144,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 5,
-    "slug": "crema-contur-ochi-cu-venin-de-albine-20g",
-    "name": "Cremă Contur Ochi cu Venin de Albine 20g",
-    "description": "Produs premium destinat îngrijirii zonei sensibile din jurul ochilor",
-    "price": "15 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/crema-contur-ochi-cu-venin-de-albine-20g.jpg",
-    "featured": false
-  },
-  {
     "id": 6,
     "slug": "plasturi-pentru-varice-12-bucati",
     "name": "Plasturi pentru Varice 12 Bucăți",
@@ -369,18 +357,6 @@ window.PRODUCTS = [
     "video": "https://i.imgur.com/hhm50YF",
     "category": "Beauty",
     "image": "assets/images/detox-foot-pads.jpg",
-    "featured": true
-  },
-  {
-    "id": 28,
-    "slug": "corector-postura-reglabil-pentru-umeri-si-spate",
-    "name": "Corector Postură Reglabil pentru Umeri și Spate",
-    "description": "Suport inteligent pentru spate și umeri",
-    "price": "9 Lei",
-    "stock": "0",
-    "video": "https://imgur.com/q1i3xnr",
-    "category": "Beauty",
-    "image": "assets/images/corector-postura-reglabil-pentru-umeri-si-spate.jpg",
     "featured": true
   },
   {
@@ -898,5 +874,29 @@ window.PRODUCTS = [
     "category": "Casă și grădină",
     "image": "assets/images/fgghfg.png",
     "featured": false
+  },
+   {
+    "id": 5,
+    "slug": "crema-contur-ochi-cu-venin-de-albine-20g",
+    "name": "Cremă Contur Ochi cu Venin de Albine 20g",
+    "description": "Produs premium destinat îngrijirii zonei sensibile din jurul ochilor",
+    "price": "15 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/crema-contur-ochi-cu-venin-de-albine-20g.jpg",
+    "featured": false
+  },
+  {
+    "id": 28,
+    "slug": "corector-postura-reglabil-pentru-umeri-si-spate",
+    "name": "Corector Postură Reglabil pentru Umeri și Spate",
+    "description": "Suport inteligent pentru spate și umeri",
+    "price": "9 Lei",
+    "stock": "0",
+    "video": "https://imgur.com/q1i3xnr",
+    "category": "Beauty",
+    "image": "assets/images/corector-postura-reglabil-pentru-umeri-si-spate.jpg",
+    "featured": true
   },
 ];
