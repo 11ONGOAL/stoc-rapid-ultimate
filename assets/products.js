@@ -96,18 +96,6 @@ window.PRODUCTS = [
     "featured": false
   },
   {
-    "id": 61,
-    "slug": "set-filetare-2buc",
-    "name": "Set Filetare Țevi 20 mm și 25 mm – 2 Piese Metalice",
-    "description": "Potrivit pentru lucrări de instalații, reparații și mentenanță",
-    "price": "12 Lei",
-    "stock": "0",
-    "video": "",
-    "category": "Casă și grădină",
-    "image": "assets/images/fgghfg.png",
-    "featured": false
-  },
-  {
     "id": 62,
     "slug": "capsule-gandaci",
     "name": "Capcane Anti-Gândaci - Momeală – Set 8 Capcane (Capsule)",
@@ -897,6 +885,18 @@ window.PRODUCTS = [
     "video": "https://i.imgur.com/hq6AXvW",
     "category": "Beauty",
     "image": "assets/images/crema-pentru-varice.jpg",
+    "featured": false
+  },
+  {
+    "id": 61,
+    "slug": "set-filetare-2buc",
+    "name": "Set Filetare Țevi 20 mm și 25 mm – 2 Piese Metalice",
+    "description": "Potrivit pentru lucrări de instalații, reparații și mentenanță",
+    "price": "12 Lei",
+    "stock": "0",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/fgghfg.png",
     "featured": false
   },
 ];
