@@ -899,4 +899,16 @@ window.PRODUCTS = [
     "image": "assets/images/corector-postura-reglabil-pentru-umeri-si-spate.jpg",
     "featured": true
   },
+  {
+  "id": 78,
+  "slug": "set-pedichiura-profesionala-unghii-incarnate",
+  "name": "Set Pedichiură Profesională pentru Unghii Încarnate Set 3 piese",
+  "description": "Set pedichiură profesională pentru unghii încarnate cu clește, instrument de curățare, pilă și cutie",
+  "price": "0 Lei",
+  "stock": "0 Buc.",
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/set-pedichiura-3-piese-produs.webp",
+  "featured": false
+},
 ];
