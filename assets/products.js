@@ -907,7 +907,7 @@ window.PRODUCTS = [
   "price": "0 Lei",
   "stock": "0 Buc.",
   "video": "",
-  "category": "Beauty",
+  "category": "Gadgeturi și accesorii",
   "image": "assets/images/set-pedichiura-3-piese-produs.webp",
   "featured": false
 },
