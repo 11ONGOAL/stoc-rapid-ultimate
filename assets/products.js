@@ -47,18 +47,6 @@ window.PRODUCTS = [
     "image": "assets/images/71UZYfIF-6L._AC_SL1500_.jpg",
     "featured": false
   },
-          {
-    "id": 65,
-    "slug": "unguent-pentru-indepartarea-negilor-20g",
-    "name": "Unguent pentru Îndepărtarea Negilor, 20g ",
-    "description": "Unguent topic pentru îngrijirea localizată a negilor și zonelor cutanate",
-    "price": "8 Lei",
-    "stock": "800 Buc.",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/Screenshot_2026-08-27_142009.jpg",
-    "featured": false
-  },
        {
     "id": 64,
     "slug": "ultra-adeziv-anti-scurgeri-strongfix",
@@ -923,4 +911,16 @@ window.PRODUCTS = [
   "image": "assets/images/sol-lora-spray-varice-30ml-fundal-alb.webp",
   "featured": false
 },
+   {
+    "id": 65,
+    "slug": "unguent-pentru-indepartarea-negilor-20g",
+    "name": "Unguent pentru Îndepărtarea Negilor, 20g ",
+    "description": "Unguent topic pentru îngrijirea localizată a negilor și zonelor cutanate",
+    "price": "8 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Screenshot_2026-08-27_142009.jpg",
+    "featured": false
+  },
 ];
