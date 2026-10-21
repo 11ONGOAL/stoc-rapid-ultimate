@@ -923,4 +923,16 @@ window.PRODUCTS = [
     "image": "assets/images/Screenshot_2026-08-27_142009.jpg",
     "featured": false
   },
+  {
+    "id": 80,
+    "slug": "pusculita-electronica-hello-kitty",
+    "name": "Pușculiță Electronică Hello Kitty",
+    "description": "Transformă economisirea banilor într-o activitate distractivă cu pușculița electronică Hello Kitty!",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/pusculita-electronica-hello-kitty-in-cutie.webp",
+    "featured": false
+  },
 ];
