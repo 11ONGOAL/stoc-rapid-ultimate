@@ -1,4 +1,28 @@
 window.PRODUCTS = [
+    {
+  "id": 74,
+  "slug": "sampon-colorant-3-in-1-saten-castaniu-si-negru-500-ml",
+  "name": "Șampon Colorant 3 în 1 Șaten Castaniu și Negru 250/500 ml",
+  "description": "O soluție practică pentru colorarea părului acasă, fără proceduri complicate",
+  "price": "De la 25 Lei",
+  "stock": "500 Buc. / variantă",
+  "variants": [
+    {
+      "size": "250 ml",
+      "price": "25 Lei",
+      "stock": "500 Buc."
+    },
+    {
+      "size": "500 ml",
+      "price": "38 Lei",
+      "stock": "500 Buc."
+    }
+  ],
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-422236.webp",
+  "featured": false
+}
        {
     "id": 71,
     "slug": "crema-fata-antirid-50g",
@@ -754,18 +778,6 @@ window.PRODUCTS = [
     "category": "Beauty",
     "image": "assets/images/foot-mask.jpg",
     "featured": true
-  },
-   {
-    "id": 74,
-    "slug": "sampon-colorant-3-in-1-saten-castaniu-si-negru-500-ml",
-    "name": "Șampon Colorant 3 în 1 Șaten Castaniu și Negru 500/100 ml",
-    "description": " O soluție practică pentru colorarea părului acasă, fără proceduri complicate",
-    "price": "0 Lei",
-    "stock": "0 Buc.",
-    "video": "",
-    "category": "Beauty",
-    "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-422236.webp",
-    "featured": false
   },
   {
   "id": 76,
