@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+     {
+  "id": 75,
+  "slug": "irigator-bucal-electric-greenovive-a16-200-ml-negru",
+  "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
+  "description": "Irigator bucal electric Greenovive A16, rezervor 200 ml, 3 moduri de curățare și 4 capete.",
+  "price": "40 Lei",
+  "stock": "500 Buc.",
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/dfh (1).png",
+  "featured": false
+},
    {
     "id": 73,
     "slug": "benzi-pentru-albirea-dintilor-3d-white-28-bucati",
@@ -755,18 +767,6 @@ window.PRODUCTS = [
     "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-422236.webp",
     "featured": false
   },
-  {
-  "id": 75,
-  "slug": "irigator-bucal-electric-greenovive-a16-200-ml-negru",
-  "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
-  "description": "Irigator bucal electric Greenovive A16, rezervor 200 ml, 3 moduri de curățare și 4 capete.",
-  "price": "0 Lei",
-  "stock": "0 Buc.",
-  "video": "",
-  "category": "Beauty",
-  "image": "assets/images/rty.png",
-  "featured": false
-},
   {
   "id": 76,
   "slug": "crema-pentru-bataturi-si-calcaie-20g",
