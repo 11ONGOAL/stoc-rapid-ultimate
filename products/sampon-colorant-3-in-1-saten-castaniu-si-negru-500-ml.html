@@ -4,8 +4,8 @@
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="#0e1d33" name="theme-color"/>
-<meta name="description" content="Șampon Colorant 3 în 1, 500 ml, disponibil în două variante distincte: Șaten castaniu și Negru. Formulă pentru colorarea și îngrijirea părului."/>
-<title>Șampon Colorant 3 în 1 Șaten Castaniu și Negru 500/100 ml | Alexa Imports</title>
+<meta name="description" content="Șampon Colorant 3 în 1, 250 ml sau 500 ml, disponibil în culorile Șaten castaniu și Negru. Prețuri și stocuri în funcție de cantitate."/>
+<title>Șampon Colorant 3 în 1 Șaten Castaniu și Negru 250/500 ml | Alexa Imports</title>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <link href="../assets/styles.css" rel="stylesheet"/>
 <style>
@@ -71,9 +71,15 @@
 .variant-swatch.brown { background:#603625; }
 .variant-swatch.black { background:#161616; }
 .variant-option small { display:block; font-size:.8rem; opacity:.7; margin-top:3px; }
-.variant-status { margin-top:12px; font-size:.92rem; }
+  .variant-status { margin-top:12px; font-size:.92rem; }
+  .volume-options { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
+  .volume-option { display:flex; flex-direction:column; gap:4px; padding:14px; border:2px solid #d9dfe6; border-radius:10px; background:#fff; cursor:pointer; text-align:left; color:inherit; font:inherit; }
+  .volume-option[aria-pressed="true"] { border-color:#9e2935; background:#fff5f5; }
+  .volume-option small { opacity:.75; }
+  .detail-stock.out-of-stock { color:#ae2b34; }
+  .detail-stock:not(.out-of-stock) { color:#147346; }
 @media (max-width:540px) {
-  .variant-options { grid-template-columns:1fr; }
+  .variant-options, .volume-options { grid-template-columns:1fr; }
   .product-detail-image.product-gallery { padding:12px; }
   .product-detail-image.product-gallery > .gallery-main { height:320px; }
   .product-gallery .gallery-thumbnails button img { height:72px; }
@@ -115,7 +121,7 @@
     <nav aria-label="Breadcrumb" class="breadcrumbs">
       <a href="../index.html">Acasă</a><span>›</span>
       <a href="../index.html#produse">Îngrijire personală</a><span>›</span>
-      <span>Șampon Colorant 3 în 1 Șaten Castaniu și Negru 500/100 ml</span>
+      <span>Șampon Colorant 3 în 1 Șaten Castaniu și Negru 250/500 ml</span>
     </nav>
 
     <section class="product-detail">
@@ -159,15 +165,15 @@
         <div class="gallery-thumbnails" data-variant-gallery="negru" aria-label="Imagini Negru" hidden>
           <!-- Imaginea 1: schimbă doar valoarea src cu numele fotografiei tale -->
           <button type="button" aria-label="Negru, imaginea 1" aria-pressed="true" onclick="selectProductImage(this)">
-            <img src="../assets/images/165fb950-be47-4807-8213-acaa21c79951 (1).jpg" alt="Șampon colorant negru – imaginea 1" loading="lazy" />
+            <img src="../assets/images/Sampon (3).png" alt="Șampon colorant negru – imaginea 1" loading="lazy" />
           </button>
           <!-- Imaginea 2: schimbă doar valoarea src cu numele fotografiei tale -->
           <button type="button" aria-label="Negru, imaginea 2" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/9bfbbbcd-2ce5-4750-97d5-f817a657c844 (1).jpg" alt="Șampon colorant negru – imaginea 2" loading="lazy" />
+            <img src="../assets/images/Sampon (2).png" alt="Șampon colorant negru – imaginea 2" loading="lazy" />
           </button>
           <!-- Imaginea 3: schimbă doar valoarea src cu numele fotografiei tale -->
           <button type="button" aria-label="Negru, imaginea 3" aria-pressed="false" onclick="selectProductImage(this)">
-            <img src="../assets/images/2517c47f-0d51-4b8f-8963-0b10070207f4 (1).jpg" alt="Șampon colorant negru – imaginea 3" loading="lazy" />
+            <img src="../assets/images/Sampon (1).png" alt="Șampon colorant negru – imaginea 3" loading="lazy" />
           </button>
           <!-- IMAGINI NOI: lipește aici încă un bloc <button>...</button> înainte de închiderea </div>.
           Exemplu:
@@ -179,7 +185,7 @@
       </div>
       <div class="product-detail-copy">
         <span class="detail-category">Îngrijire personală</span>
-        <h1>Șampon Colorant 3 în 1 Șaten Castaniu și Negru 500/100 ml</h1>
+        <h1>Șampon Colorant 3 în 1 Șaten Castaniu și Negru 250/500 ml</h1>
         <p class="detail-description">O soluție practică pentru colorarea părului acasă, fără proceduri complicate. Formula 3 în 1 combină colorarea, îngrijirea și hidratarea într-un singur produs, oferind părului un aspect natural, strălucitor și revitalizat.</p>
 
         <div class="variant-picker" aria-labelledby="variant-heading">
@@ -196,9 +202,23 @@
           <p class="variant-status" id="selectedVariant" aria-live="polite">Varianta selectată: <strong>Șaten castaniu</strong></p>
         </div>
 
-        <div class="detail-price-row">
-          <div><span class="detail-label">Preț B2B</span><strong class="detail-price">0,00 Lei</strong></div>
-          <div><span class="detail-label">Stoc declarat</span><strong class="detail-stock out-of-stock">0 buc. — Indisponibil</strong></div>
+        <div class="variant-picker" aria-labelledby="volume-heading">
+          <h2 id="volume-heading">Alege cantitatea</h2>
+          <p>Prețul și stocul sunt gestionate separat pentru fiecare cantitate.</p>
+          <div class="volume-options" role="group" aria-label="Cantitate șampon">
+            <button type="button" class="volume-option" data-volume="250" aria-pressed="true" onclick="setVolume('250')">
+              <strong>250 ml</strong><small>25,00 Lei · Stoc: 500 buc.</small>
+            </button>
+            <button type="button" class="volume-option" data-volume="500" aria-pressed="false" onclick="setVolume('500')">
+              <strong>500 ml</strong><small>38,00 Lei · Stoc: 500 buc.</small>
+            </button>
+          </div>
+          <p class="variant-status" id="selectedVolume" aria-live="polite">Cantitate selectată: <strong>250 ml</strong></p>
+        </div>
+
+        <div class="detail-price-row" aria-live="polite">
+          <div><span class="detail-label">Preț B2B</span><strong class="detail-price" id="detailPrice">25,00 Lei</strong></div>
+          <div><span class="detail-label">Stoc declarat</span><strong class="detail-stock" id="detailStock">500 buc.</strong></div>
         </div>
         <div class="detail-actions">
           <a id="whatsappMain" class="btn btn-primary" href="#" rel="noopener" target="_blank">Solicită detalii pe WhatsApp</a>
@@ -206,7 +226,7 @@
         </div>
         <div class="detail-note">
           <strong>Informație importantă</strong>
-          <p><strong>Ambele variante au stoc declarat 0 buc. și preț afișat 0,00 Lei.</strong> Prețul nu reprezintă o ofertă de vânzare. Confirmă disponibilitatea, volumul ambalajului, nuanța și condițiile comerciale înainte de comandă.</p>
+          <p><strong>250 ml: 25,00 Lei, stoc 500 buc. · 500 ml: 38,00 Lei, stoc 500 buc.</strong> Prețurile B2B sunt afișate fără TVA. Confirmă disponibilitatea, nuanța și condițiile comerciale înainte de comandă.</p>
         </div>
       </div>
     </section>
@@ -216,11 +236,11 @@
         <p class="eyebrow dark">DETALII PRODUS</p>
         <p>O soluție practică pentru colorarea părului acasă, fără proceduri complicate. Formula 3 în 1 combină colorarea, îngrijirea și hidratarea într-un singur produs, oferind părului un aspect natural, strălucitor și revitalizat.</p>
         <p>Două variante de culoare</p>
-        <p><strong>Șaten castaniu</strong> și <strong>Negru</strong> sunt variante separate ale șamponului colorant. Alege culoarea din selectorul de mai sus, înainte de a solicita informații pe WhatsApp.</p>
+        <p><strong>Șaten castaniu</strong> și <strong>Negru</strong> sunt variante de culoare. Alege culoarea și cantitatea (250 ml sau 500 ml) din selectoarele de mai sus, înainte de a solicita informații pe WhatsApp.</p>
         <p><strong>Caracteristici produs:</strong></p>
           <p>Tip produs: șampon colorant</p>
           <p>Nuanțe disponibile ca variante: șaten castaniu și negru</p>
-          <p>Cantitate declarată: 500/100 ml</p>
+          <p>Cantitate declarată: 250/500 ml</p>
           <p>Formulă: 3 în 1</p>
           <p>Utilizare: colorare și îngrijire</p>
           <p>Potrivit pentru: femei și bărbați</p>
@@ -229,7 +249,7 @@
       </div>
       <div class="info-card">
         <h3>Comandă și informații</h3>
-        <p>Site-ul funcționează ca un catalog B2B, fără plată online sau coș de cumpărături. Ambele variante sunt momentan indisponibile.</p>
+        <p>Site-ul funcționează ca un catalog B2B, fără plată online sau coș de cumpărături. Stoc declarat: 500 buc. pentru 250 ml și 500 buc. pentru 500 ml. Confirmă disponibilitatea înainte de comandă.</p>
         <a id="whatsappInfo" href="#" rel="noopener" target="_blank">Discută pe WhatsApp →</a>
       </div>
     </section>
@@ -297,6 +317,14 @@
 */
 const labels = { saten: 'Șaten castaniu', negru: 'Negru' };
 
+// Modifică aici independent prețul și stocul pentru fiecare cantitate.
+const volumeVariants = {
+  '250': { price: 25, stock: 500 },
+  '500': { price: 38, stock: 500 }
+};
+let selectedColor = 'saten';
+let selectedVolume = '250';
+
 function selectProductImage(button) {
   const group = button.closest('[data-variant-gallery]');
   const thumbnail = button.querySelector('img');
@@ -310,8 +338,26 @@ function selectProductImage(button) {
   });
 }
 
+function formatLei(value) {
+  return value.toLocaleString('ro-RO', { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ' Lei';
+}
+
+function updateWhatsapp() {
+  const data = volumeVariants[selectedVolume];
+  const message = 'Bună ziua, doresc detalii despre produsul: Șampon Colorant 3 în 1. ' +
+    'Culoare: ' + labels[selectedColor] + '. ' +
+    'Cantitate: ' + selectedVolume + ' ml. ' +
+    'Preț B2B: ' + formatLei(data.price) + ' (fără TVA).';
+  const url = 'https://wa.me/40739950885?text=' + encodeURIComponent(message);
+  ['whatsappMain', 'whatsappInfo', 'whatsappStrip', 'whatsappFooter'].forEach(id => {
+    const link = document.getElementById(id);
+    if (link) link.href = url;
+  });
+}
+
 function setVariant(variant) {
   if (!Object.prototype.hasOwnProperty.call(labels, variant)) return;
+  selectedColor = variant;
 
   document.querySelectorAll('[data-variant-gallery]').forEach(group => {
     group.hidden = group.dataset.variantGallery !== variant;
@@ -324,17 +370,38 @@ function setVariant(variant) {
   const group = document.querySelector('[data-variant-gallery="' + variant + '"]');
   const selected = group && (group.querySelector('button[aria-pressed="true"]') || group.querySelector('button'));
   if (selected) selectProductImage(selected);
+  updateWhatsapp();
+}
 
-  const message = 'Bună ziua, doresc detalii despre produsul: Șampon Colorant 3 în 1 500 ml. Varianta de culoare: ' + labels[variant] + '.';
-  const url = 'https://wa.me/40739950885?text=' + encodeURIComponent(message);
-  ['whatsappMain', 'whatsappInfo', 'whatsappStrip', 'whatsappFooter'].forEach(id => {
-    const link = document.getElementById(id);
-    if (link) link.href = url;
+function setVolume(volume) {
+  if (!Object.prototype.hasOwnProperty.call(volumeVariants, volume)) return;
+  selectedVolume = volume;
+  const data = volumeVariants[volume];
+
+  document.querySelectorAll('.volume-option').forEach(button => {
+    button.setAttribute('aria-pressed', String(button.dataset.volume === volume));
   });
+  document.getElementById('selectedVolume').textContent = 'Cantitate selectată: ' + volume + ' ml';
+  document.getElementById('detailPrice').textContent = formatLei(data.price);
+  const stockElement = document.getElementById('detailStock');
+  stockElement.textContent = data.stock + ' buc.';
+  stockElement.classList.toggle('out-of-stock', data.stock <= 0);
+
+  // Actualizează și informațiile afișate în fiecare buton de cantitate.
+  document.querySelectorAll('.volume-option').forEach(button => {
+    const option = volumeVariants[button.dataset.volume];
+    const details = button.querySelector('small');
+    if (option && details) details.textContent = formatLei(option.price) + ' · Stoc: ' + option.stock + ' buc.';
+  });
+  updateWhatsapp();
 }
 
 setVariant('saten');
+setVolume('250');
 </script>
+
+</body>
+</html>
 
 </body>
 </html>
