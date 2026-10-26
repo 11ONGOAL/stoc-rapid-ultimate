@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+  {
+    "id": 57,
+    "slug": "crema-pentru-varice",
+    "name": "Cremă pentru varice",
+    "description": "Tratament natural pentru circulație și reducerea venelor varicoase",
+    "price": "7 Lei",
+    "stock": "2000",
+    "video": "https://i.imgur.com/hq6AXvW",
+    "category": "Beauty",
+    "image": "assets/images/crema-pentru-varice.jpg",
+    "featured": false
+  },
              {
     "id": 70,
     "slug": "centura-ems-abdomen-brate",
@@ -767,18 +779,6 @@ window.PRODUCTS = [
   "image": "assets/images/fond-ten-colagen-aplicare.jpg",
   "featured": false
 },
-  {
-    "id": 57,
-    "slug": "crema-pentru-varice",
-    "name": "Cremă pentru varice",
-    "description": "Tratament natural pentru circulație și reducerea venelor varicoase",
-    "price": "7 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/hq6AXvW",
-    "category": "Beauty",
-    "image": "assets/images/crema-pentru-varice.jpg",
-    "featured": false
-  },
   {
     "id": 61,
     "slug": "set-filetare-2buc",
