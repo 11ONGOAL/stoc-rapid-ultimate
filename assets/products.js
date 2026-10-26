@@ -8,7 +8,7 @@ window.PRODUCTS = [
     "stock": "500 Buc.",
     "video": "",
     "category": "Beauty",
-    "image": "assets/images/61a7Mq4l5RL._AC_SL1280_.jpg",
+    "image": "assets/images/aacce3d570fd31735087c9e40dd01248.png_720x720q80.png_.webp",
     "featured": false
   },
    {
