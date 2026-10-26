@@ -22,7 +22,7 @@ window.PRODUCTS = [
   "category": "Beauty",
   "image": "assets/images/sampon-colorant-3-in-1-saten-castaniu-acoperire-fire-albe-500-ml-422236.webp",
   "featured": false
-}
+},
        {
     "id": 71,
     "slug": "crema-fata-antirid-50g",
