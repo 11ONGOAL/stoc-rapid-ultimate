@@ -2,7 +2,7 @@ window.PRODUCTS = [
    {
     "id": 73,
     "slug": "benzi-pentru-albirea-dintilor-3d-white-28-bucati",
-    "name": "Benzi pentru Albirea Dinților 3D White – 28 Bucăți",
+    "name": "Benzi pentru Albirea Dinților 3D White – 7 Bucăți",
     "description": " Un zâmbet mai alb și mai strălucitor, chiar la tine acasă!",
     "price": "8 Lei",
     "stock": "500 Buc.",
