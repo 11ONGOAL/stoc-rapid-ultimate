@@ -1,5 +1,17 @@
 window.PRODUCTS = [
      {
+    "id": 72,
+    "slug": "ceas-barbati-argintiu-cu-pietre-stralucitoare",
+    "name": "Ceas Bărbați Argintiu cu Pietre Strălucitoare",
+    "description": " Adaugă un plus de stil și eleganță ținutelor tale cu acest ceas bărbătesc Luxury Diamond",
+    "price": "32 Lei",
+    "stock": "300 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/a3ae9803-8206-4e2f-a9ab-bd78124f6a91.jpg",
+    "featured": false
+  },
+     {
   "id": 75,
   "slug": "irigator-bucal-electric-greenovive-a16-200-ml-negru",
   "name": "Irigator Bucal Electric, 3 Moduri de Curățare, Rezervor 200 ml, 4 Capete, Negru",
@@ -741,18 +753,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Beauty",
     "image": "assets/images/71R5tT3f+tL._AC_SL1500_.jpg",
-    "featured": false
-  },
-  {
-    "id": 72,
-    "slug": "ceas-barbati-argintiu-cu-pietre-stralucitoare",
-    "name": "Ceas Bărbați Argintiu cu Pietre Strălucitoare",
-    "description": " Adaugă un plus de stil și eleganță ținutelor tale cu acest ceas bărbătesc Luxury Diamond",
-    "price": "0 Lei",
-    "stock": "0 Buc.",
-    "video": "",
-    "category": "Gadgeturi și accesorii",
-    "image": "assets/images/4da9b84f-2ab4-4e56-b7aa-82e1a0629ca3.jpg",
     "featured": false
   },
    {
