@@ -1,5 +1,17 @@
 window.PRODUCTS = [
     {
+  "id": 77,
+  "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
+  "name": "Fond de Ten cu Colagen și Burețel Inclus 20g.",
+  "description": "Obține un ten cu aspect uniform, luminos și îngrijit cu J-PHD Air Cushion CC Cream!",
+  "price": "18 Lei",
+  "stock": "500 Buc.",
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/Fond de ten (1).png",
+  "featured": false
+},
+    {
     "id": 81,
     "slug": "colanti-termici-vatuiti-cu-interior-moale-pentru-dama",
     "name": "Colanti Termici Vătuiți cu Interior Moale pentru Damă tip Ciorapi cu Căptuseala Groasă",
@@ -803,18 +815,7 @@ window.PRODUCTS = [
   "image": "assets/images/vcbcvb.png",
   "featured": false
 },
-   {
-  "id": 77,
-  "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
-  "name": "Fond de Ten cu Colagen și Burețel Inclus",
-  "description": "Fondul de ten CC Cream cu extract din secreție de melc și colagen, conceput pentru un machiaj rapid.",
-  "price": "0 Lei",
-  "stock": "0 Buc.",
-  "video": "",
-  "category": "Beauty",
-  "image": "assets/images/fond-ten-colagen-aplicare.jpg",
-  "featured": false
-},
+   
   {
     "id": 61,
     "slug": "set-filetare-2buc",
