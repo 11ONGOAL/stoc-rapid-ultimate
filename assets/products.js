@@ -1,5 +1,17 @@
 window.PRODUCTS = [
     {
+    "id": 81,
+    "slug": "colanti-termici-vatuiti-cu-interior-moale-pentru-dama",
+    "name": "Colanti Termici Vătuiți cu Interior Moale pentru Damă tip Ciorapi cu Căptuseala Groasă",
+    "description": "Redescoperă frumusețea tenului tău cu Crema Antirid Dragon Blood – pentru un aspect mai neted, ferm și luminos!",
+    "price": "17 Lei",
+    "stock": "1000 Buc.",
+    "video": "",
+    "category": "Casă și Grădină",
+    "image": "assets/images/colanti-termici-model.webp",
+    "featured": false
+  },
+    {
   "id": 74,
   "slug": "sampon-colorant-3-in-1-saten-castaniu-si-negru-500-ml",
   "name": "Șampon Colorant 5 în 1 Șaten Castaniu și Negru 250/500 ml",
