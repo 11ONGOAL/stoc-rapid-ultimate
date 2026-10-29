@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+     {
+  "id": 82,
+  "slug": "cerc-hula-hoop-fitness-smart-reglabil",
+  "name": "Cerc Hula Hoop Fitness Smart Reglabil",
+  "description": "Obține un ten cu aspect uniform, luminos și îngrijit cu J-PHD Air Cushion CC Cream!",
+  "price": "20 Lei",
+  "stock": "500 Buc.",
+  "video": "",
+  "category": "Beauty",
+  "image": "assets/images/13720-09-packing.webp",
+  "featured": false
+},
     {
   "id": 77,
   "slug": "fond-de-ten-cu-colagen-si-buretel-inclus",
