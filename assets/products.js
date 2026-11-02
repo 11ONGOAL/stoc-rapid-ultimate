@@ -904,12 +904,24 @@ window.PRODUCTS = [
     "id": 83,
     "slug": "ser-facial-anti-pete-niacinamida-5-30ml",
     "name": "Ser Facial Anti-Pete cu Niacinamidă 5%, 30 ml",
-    "description": "Transformă economisirea banilor într-o activitate distractivă cu pușculița electronică Hello Kitty!",
+    "description": "Serul Facial Anti-Pete JAYSUING 5 în 1 cu Niacinamidă 5% este un produs cosmetic destinat îngrijirii tenului, conceput pentru a completa rutina zilnică de hidratare!",
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
     "category": "Beauty",
     "image": "assets/images/Ser facial (1).png",
+    "featured": false
+  },
+     {
+    "id": 84,
+    "slug": "spray-pentru-negi-cu-venin-de-albine-20ml",
+    "name": "Spray pentru Negi cu Venin de Albine, 20 ml",
+    "description": "Spray-ul pentru negi BOOMOON cu venin de albineeste un produs destinat aplicării locale pe piele, prezentat de producător pentru îngrijirea zonelor afectate de negi și excrescențe.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Spray negi venin de albine (1)(1).png",
     "featured": false
   },
 ];
