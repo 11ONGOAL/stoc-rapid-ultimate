@@ -924,4 +924,16 @@ window.PRODUCTS = [
     "image": "assets/images/Spray negi venin de albine (1)(1).png",
     "featured": false
   },
+     {
+    "id": 85,
+    "slug": "spray-lustruirea-mobilei-polo-2-in-1-300ml",
+    "name": "Spray pentru Lustruirea Mobilei 2 în 1, 300 ml",
+    "description": "Spray-ul pentru lustruirea mobilei POLO 2 în 1 este un produs practic pentru întreținerea și îngrijirea mobilierului, conceput pentru a contribui la păstrarea aspectului îngrijit și lucios al suprafețelor.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/polo-spray-lustruire-mobila-1.png",
+    "featured": false
+  },
 ];
