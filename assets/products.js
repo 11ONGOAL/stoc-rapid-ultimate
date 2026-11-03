@@ -936,4 +936,16 @@ window.PRODUCTS = [
     "image": "assets/images/polo-spray-lustruire-mobila-1.png",
     "featured": false
   },
+     {
+    "id": 86,
+    "slug": "adeziv-bicomponent-metal-lemn-plastic-exterior",
+    "name": "Spray pentru Lustruirea Mobilei 2 în 1, 300 ml",
+    "description": "Adezivul bicomponent pentru metal, lemn și plastic este o soluție practică pentru lucrări de lipire, reparație și întreținere a diferitelor suprafețe.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/adeziv-bicomponent-metal-lemn-plastic-1.png",
+    "featured": false
+  },
 ];
