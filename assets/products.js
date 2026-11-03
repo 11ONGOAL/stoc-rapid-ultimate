@@ -939,13 +939,25 @@ window.PRODUCTS = [
      {
     "id": 86,
     "slug": "adeziv-bicomponent-metal-lemn-plastic-exterior",
-    "name": "Spray pentru Lustruirea Mobilei 2 în 1, 300 ml",
+    "name": "Adeziv Bicomponent pentru Metal, Lemn și Plastic și Uz Exterior",
     "description": "Adezivul bicomponent pentru metal, lemn și plastic este o soluție practică pentru lucrări de lipire, reparație și întreținere a diferitelor suprafețe.",
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
     "category": "Casă și grădină",
     "image": "assets/images/adeziv-bicomponent-metal-lemn-plastic-1.png",
+    "featured": false
+  },
+     {
+    "id": 87,
+    "slug": "set-21-plasturi-antifungici-unghii-cu-hidrogel",
+    "name": "Set 21 Plasturi Antifungici pentru Unghii cu Hidrogel",
+    "description": "Setul de 21 plasturi antifungici pentru unghii cu hidrogel este un produs destinat îngrijirii localizate a unghiilor cu aspect deteriorat, îngălbenit sau modificat.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/plasturi-antifungici-unghii-hidrogel-1.webp",
     "featured": false
   },
 ];
