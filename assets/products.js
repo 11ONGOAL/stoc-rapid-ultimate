@@ -984,4 +984,16 @@ window.PRODUCTS = [
     "image": "assets/images/bubble_bombs_01_produs_HD.png",
     "featured": false
   },
+      {
+    "id": 90,
+    "slug": "husa-capac-wc-plush",
+    "name": "Husă pentru Capac WC din Material Plușat",
+    "description": "Husa textilă pentru colacul WC este un accesoriu practic pentru baie, conceput pentru a oferi o suprafață de contact mai plăcută și pentru a îmbunătăți confortul în utilizarea zilnică a toaletei.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/husa-capac-wc-plush.jpg",
+    "featured": false
+  },
 ];
