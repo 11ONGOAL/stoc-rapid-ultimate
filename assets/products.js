@@ -992,7 +992,7 @@ window.PRODUCTS = [
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
-    "category": "Beauty",
+    "category": "Casă și grădină",
     "image": "assets/images/husa-capac-wc-plush.jpg",
     "featured": false
   },
