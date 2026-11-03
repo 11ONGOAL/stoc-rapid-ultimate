@@ -962,7 +962,7 @@ window.PRODUCTS = [
   },
       {
     "id": 88,
-    "slug": "tus-ochi-eyeliner-stamp-SHEDOES.html",
+    "slug": "tus-ochi-eyeliner-stamp-SHEDOES",
     "name": "Tuș de Ochi Tip Ștampilă Eyeliner Stamp",
     "description": "Conturarea ochilor devine mai simplă cu Tușul Eyeliner Stamp SHEDOES, un produs de machiaj conceput pentru realizarea liniilor precise și a efectului de ochi alungiți.",
     "price": "0 Lei",
