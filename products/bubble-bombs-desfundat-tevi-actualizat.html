@@ -108,14 +108,6 @@
   }
 }
 
-/* Selector de culoare solicitat pentru această fișă de produs. */
-.product-color-choice { margin: 16px 0; }
-.product-color-choice .color-choice-label { display: block; font-weight: 700; margin-bottom: 9px; }
-.product-color-choice .color-choice-options { display: flex; flex-wrap: wrap; gap: 9px; }
-.product-color-choice .color-choice-option { display: inline-flex; align-items: center; gap: 7px; padding: 9px 14px; border: 1px solid #cdd5df; border-radius: 9px; cursor: pointer; }
-.product-color-choice .color-choice-option:has(input:checked) { border-color: #163868; box-shadow: 0 0 0 1px #163868; }
-.product-color-choice .color-choice-option input { accent-color: #163868; }
-.product-color-choice .color-swatch { display: inline-block; width: 16px; height: 16px; border: 1px solid #999; border-radius: 50%; }
 </style>
 </head>
 <body>
@@ -170,7 +162,6 @@
         <div class="detail-price-row">
           <div><span class="detail-label">Preț B2B</span><strong class="detail-price">0,00 Lei</strong></div>
           <div><span class="detail-label">Stoc declarat</span><strong class="detail-stock out-of-stock">0 buc.</strong></div>
-        </div>
         </div>
         <div class="detail-actions">
           <a class="btn btn-primary" href="https://wa.me/40739950885?text=Bun%C4%83%20ziua%2C%20doresc%20detalii%20despre%20produsul%3A%20Solu%C8%9Bie%20pentru%20Desfundat%20%C8%9Aevi%20%C8%99i%20Scurgeri%20Bubble%20Bombs." rel="noopener" target="_blank">Solicită detalii pe WhatsApp</a>
@@ -244,17 +235,7 @@
     <p class="disclaimer">Prețurile din catalog sunt orientative și nu includ TVA, conform documentului furnizat. Verificați conformitatea, etichetarea și afirmațiile comerciale înainte de punerea produselor pe piață.</p>
   </div>
 </footer>
-<script src="../assets/app.js">
-function updateSelectedProductColor() {
-  const selected = document.querySelector('input[name="productColor"]:checked');
-  if (!selected) return;
-  const message = 'Bună ziua, doresc detalii despre produsul: Soluție pentru Desfundat Țevi și Scurgeri Bubble Bombs. Culoare selectată: ' + selected.value + '.';
-  document.querySelectorAll('a[href^="https://wa.me/40739950885?text="]').forEach(link => {
-    link.href = 'https://wa.me/40739950885?text=' + encodeURIComponent(message);
-  });
-}
-updateSelectedProductColor();
-</script>
+<script src="../assets/app.js"></script>
 <script>
 function selectProductImage(button) {
   const mainImage = document.getElementById('mainProductImage');
@@ -265,7 +246,5 @@ function selectProductImage(button) {
   document.querySelectorAll('.gallery-thumbnails button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
 }
 </script>
-</body>
-</html>
 </body>
 </html>
