@@ -960,4 +960,16 @@ window.PRODUCTS = [
     "image": "assets/images/plasturi-antifungici-unghii-hidrogel-1.webp",
     "featured": false
   },
+      {
+    "id": 88,
+    "slug": "tus-ochi-eyeliner-stamp-SHEDOES.html",
+    "name": "Tuș de Ochi Tip Ștampilă Eyeliner Stamp",
+    "description": "Conturarea ochilor devine mai simplă cu Tușul Eyeliner Stamp SHEDOES, un produs de machiaj conceput pentru realizarea liniilor precise și a efectului de ochi alungiți.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/tus de ochi (1) (1).png",
+    "featured": false
+  },
 ];
