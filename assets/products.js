@@ -972,4 +972,16 @@ window.PRODUCTS = [
     "image": "assets/images/tus de ochi (1) (1).png",
     "featured": false
   },
+     {
+    "id": 89,
+    "slug": "bubble-bombs-desfundat-tevi-actualizat",
+    "name": "Soluție pentru Desfundat Țevi și Scurgeri Bubble Bombs",
+    "description": "Bubble Bombs 100 g este o soluție sub formă de pulbere destinată curățării și întreținerii conductelor de scurgere din baie și bucătărie.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/bubble_bombs_01_produs_HD.png",
+    "featured": false
+  },
 ];
