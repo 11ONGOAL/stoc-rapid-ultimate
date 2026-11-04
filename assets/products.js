@@ -1034,7 +1034,7 @@ window.PRODUCTS = [
   },
       {
     "id": 94,
-    "slug": "Set_5_Plasturi_Bataturi_si_Negi",
+    "slug": "burete-cu-dozator-detergent",
     "name": "Burete de Curățat Vase cu Dozator de Detergent Integrat",
     "description": "Sistemul de curățare a vaselor cu dozator de detergent integrat este un accesoriu multifuncțional pentru bucătărie.",
     "price": "0 Lei",
