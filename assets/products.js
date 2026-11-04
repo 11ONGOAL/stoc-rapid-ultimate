@@ -1044,4 +1044,16 @@ window.PRODUCTS = [
     "image": "assets/images/Burete (1)(1).png",
     "featured": false
   },
+     {
+    "id": 95,
+    "slug": "zgarda-antipurici-uleiuri-esentiale",
+    "name": "Zgardă Antipurici cu Uleiuri Esențiale pentru Animale de Companie",
+    "description": "Zgarda antipureci cu uleiuri esențiale, disponibilă în variante de 39 cm și 63 cm, este un accesoriu pentru animalele de companie.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Animale",
+    "image": "assets/images/zgarda-antipurici-02-caine.png",
+    "featured": false
+  },
 ];
