@@ -1020,4 +1020,16 @@ window.PRODUCTS = [
     "image": "assets/images/suport-telefon-auto-01-montaj.png",
     "featured": false
   },
+     {
+    "id": 93,
+    "slug": "Set_5_Plasturi_Bataturi_si_Negi",
+    "name": "Set 5 Plasturi pentru Bătături și Negi",
+    "description": "Setul de 5 plasturi pentru bătături și negi Pronto Med este destinat protejării zonelor sensibile ale pielii, în special la nivelul picioarelor.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "Plasturi 3 (1)(1).png",
+    "featured": false
+  },
 ];
