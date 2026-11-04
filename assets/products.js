@@ -997,7 +997,7 @@ window.PRODUCTS = [
     "featured": false
   },
      {
-    "id": 90,
+    "id": 91,
     "slug": "spray-bucal-eelhoe-25ml",
     "name": "Spray Bucal pentru Îngrijirea Gingiilor și Mucoasei Orale, 25 ml",
     "description": "Spray-ul Bucal EELHOE Mouth Relief, 25 ml este un produs destinat îngrijirii cavității bucale, conceput pentru aplicare localizată la nivelul gingiilor și al mucoasei orale.",
@@ -1006,6 +1006,18 @@ window.PRODUCTS = [
     "video": "",
     "category": "Beauty",
     "image": "assets/images/spray-bucal-eelhoe-25ml.jpg",
+    "featured": false
+  },
+      {
+    "id": 92,
+    "slug": "suport-telefon-auto-universal-cu-clema",
+    "name": "Suport Telefon Auto Universal cu Clemă de Prindere Fixă",
+    "description": "Suportul auto universal pentru telefon cu clemă de prindere fixă este un accesoriu practic destinat susținerii telefonului mobil în interiorul autoturismului.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Auto",
+    "image": "assets/images/suport-telefon-auto-01-montaj.png",
     "featured": false
   },
 ];
