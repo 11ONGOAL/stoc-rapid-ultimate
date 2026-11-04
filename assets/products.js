@@ -996,4 +996,16 @@ window.PRODUCTS = [
     "image": "assets/images/husa-capac-wc-plush.jpg",
     "featured": false
   },
+     {
+    "id": 90,
+    "slug": "spray-bucal-eelhoe-25ml",
+    "name": "Spray Bucal pentru Îngrijirea Gingiilor și Mucoasei Orale, 25 ml",
+    "description": "Spray-ul Bucal EELHOE Mouth Relief, 25 ml este un produs destinat îngrijirii cavității bucale, conceput pentru aplicare localizată la nivelul gingiilor și al mucoasei orale.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/spray-bucal-eelhoe-25ml.jpg",
+    "featured": false
+  },
 ];
