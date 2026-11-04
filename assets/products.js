@@ -1056,4 +1056,16 @@ window.PRODUCTS = [
     "image": "assets/images/zgarda-antipurici-02-caine.png",
     "featured": false
   },
+      {
+    "id": 96,
+    "slug": "cutter-profesional-multifunctional-6-in-1",
+    "name": "Cutter Profesional Multifuncțional 6 în 1",
+    "description": "Cutterul multifuncțional 6 în 1 este un instrument compact pentru bricolaj, întreținere și reparații.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/cutter-multifunctional-6in1-03.jpg",
+    "featured": false
+  },
 ];
