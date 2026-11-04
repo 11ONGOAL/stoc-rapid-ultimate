@@ -1068,4 +1068,16 @@ window.PRODUCTS = [
     "image": "assets/images/cutter-multifunctional-6in1-03.jpg",
     "featured": false
   },
+     {
+    "id": 97,
+    "slug": "inel-terapeutic-cu-magneti-integrati",
+    "name": "Inel Terapeutic cu Magneți Integrați",
+    "description": "Inel magnetic reglabil, cu două elemente magnetice integrate, design minimalist și finisaj metalizat, disponibil în patru culori.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/inel-terapeutic-magnetic-auriu.jpg",
+    "featured": false
+  },
 ];
