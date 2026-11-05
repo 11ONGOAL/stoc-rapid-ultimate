@@ -1092,4 +1092,16 @@ window.PRODUCTS = [
     "image": "assets/images/Sampon bambus (2).png",
     "featured": false
   },
+     {
+    "id": 99,
+    "slug": "set-2-suporturi-adezive-prosoape-bare-baie",
+    "name": "Set 2 Suporturi Adezive pentru Prosoape și Bare de Baie",
+    "description": "Setul de 2 suporturi adezive pentru prosoape și bare de baie reprezintă o soluție practică pentru montarea și fixarea barelor de susținere fără a necesita găurirea pereților.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/images/Cleste prindere  (1)(1).png",
+    "featured": false
+  },
 ];
