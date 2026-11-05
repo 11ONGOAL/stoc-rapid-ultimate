@@ -1080,4 +1080,16 @@ window.PRODUCTS = [
     "image": "assets/images/inel-terapeutic-magnetic-auriu.jpg",
     "featured": false
   },
+     {
+    "id": 98,
+    "slug": "sampon-solid-carbune-bambus",
+    "name": "Șampon Solid cu Cărbune Activ din Bambus",
+    "description": "Șamponul solid cu cărbune din bambus, 60 g</strong> este un produs cosmetic destinat curățării și îngrijirii părului și scalpului.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Sampon bambus (2).png",
+    "featured": false
+  },
 ];
