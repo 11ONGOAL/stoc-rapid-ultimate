@@ -1116,4 +1116,16 @@ window.PRODUCTS = [
     "image": "assets/images/Kit reparatie piele (2).png",
     "featured": false
   },
+      {
+    "id": 101,
+    "slug": "set-2-magneti-auriculari-quit-smoking",
+    "name": "Set 2 Magneți Auriculari Quit Smoking",
+    "description": "Setul de 2 magneți pentru ureche Quit Smoking ZeroSmoke este un accesoriu auricular cu sistem de fixare magnetică, promovat comercial pentru persoanele interesate de metode alternative asociate renunțării la fumat.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/Cercei magnetici (1).png",
+    "featured": false
+  },
 ];
