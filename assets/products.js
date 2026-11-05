@@ -1128,4 +1128,16 @@ window.PRODUCTS = [
     "image": "assets/images/Cercei magnetici (1).png",
     "featured": false
   },
+     {
+    "id": 102,
+    "slug": "Set_10_Plasturi_Puncte_Negre_EELHOE",
+    "name": "Set 10 Plasturi pentru Puncte Negre cu Cărbune de Bambus",
+    "description": "Set EELHOE Blackhead Nose Patch cu 10 plasturi pentru îndepărtarea impurităților și curățarea porilor din zona nasului, cu cărbune de bambus.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Plasturi puncte negre (1)(1).png",
+    "featured": false
+  },
 ];
