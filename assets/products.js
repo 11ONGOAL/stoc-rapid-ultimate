@@ -1104,4 +1104,16 @@ window.PRODUCTS = [
     "image": "assets/images/images/Cleste prindere  (1)(1).png",
     "featured": false
   },
+     {
+    "id": 100,
+    "slug": "kit-reparatii-piele-tapiterie-50g",
+    "name": "Kit Reparații Piele și Tapițerie 50 g",
+    "description": "RAYHONG Paintable Repairs Filler, 50 g este o pastă de reparații destinată recondiționării suprafețelor deteriorate din piele naturală, piele sintetică, vinil și alte materiale compatibile.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/Kit reparatie piele (2).png",
+    "featured": false
+  },
 ];
