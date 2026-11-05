@@ -1101,7 +1101,7 @@ window.PRODUCTS = [
     "stock": "0 Buc.",
     "video": "",
     "category": "Casă și grădină",
-    "image": "assets/images/images/Cleste prindere  (1)(1).png",
+    "image": "assets/images/Cleste prindere  (2)(1).png",
     "featured": false
   },
      {
