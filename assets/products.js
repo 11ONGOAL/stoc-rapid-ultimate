@@ -1176,4 +1176,16 @@ window.PRODUCTS = [
     "image": "assets/images/dispozitiv anit-fumat (1)(1).png",
     "featured": false
   },
+       {
+    "id": 107,
+    "slug": "banda-termoadeziva-pentru-tiv",
+    "name": "Bandă Termoadezivă pentru Tiv și Scurtarea Pantalonilor",
+    "description": "Banda termoadezivă pentru tiv, cu lungimea de 3 metri și lățimea de 2,5 cm, este un accesoriu textil destinat ajustării, scurtării și fixării marginilor materialelor vestimentare, fără utilizarea mașinii de cusut.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/55a02f9a-e4c6-f111-bf5b-6045bd9c3177-20261013090100(1).png",
+    "featured": false
+  },
 ];
