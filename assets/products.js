@@ -1128,4 +1128,16 @@ window.PRODUCTS = [
     "image": "assets/images/adeziv-bicomponent-metal-lemn-plastic-1.png",
     "featured": false
   },
+       {
+    "id": 103,
+    "slug": "set-3-tije-lipire-metalice",
+    "name": "Set 3 Tije pentru Lipire și Reparații Metalice la Temperatură Joasă",
+    "description": "Setul de 3 tije pentru lipire metalică la temperatură joasă</strong> este conceput pentru lucrări de întreținere, îmbinare și recondiționare a componentelor metalice.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/01_baghete_sudura_prezentare(1).png",
+    "featured": false
+  },
 ];
