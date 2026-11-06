@@ -1140,4 +1140,16 @@ window.PRODUCTS = [
     "image": "assets/images/01_baghete_sudura_prezentare(1).png",
     "featured": false
   },
+        {
+    "id": 104,
+    "slug": "set_2_cercei_magnetici_presopunctura",
+    "name": "Set 2 Cercei Magnetici pentru Presopunctură Auriculară",
+    "description": "Setul de cercei magnetici pentru presopunctură auriculară este un accesoriu destinat purtării pe lobul urechii, care îmbină un design elegant cu un sistem de fixare magnetică.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/Cercei frumosi acupunctura (1)(1).png",
+    "featured": false
+  },
 ];
