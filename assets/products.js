@@ -1188,4 +1188,16 @@ window.PRODUCTS = [
     "image": "assets/images/55a02f9a-e4c6-f111-bf5b-6045bd9c3177-20261013090100(1).png",
     "featured": false
   },
+        {
+    "id": 108,
+    "slug": "curatator-legume-fructe-inox-420",
+    "name": "Curățător de Legume și Fructe cu Lamă din Oțel Inoxidabil",
+    "description": "Curățătorul manual pentru legume și fructe este un accesoriu de bucătărie conceput pentru îndepărtarea cojilor de pe diferite alimente, oferind o soluție practică pentru pregătirea ingredientelor în activitățile culinare zilnice.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/curatator_legume_01_lama_420_RO(1).png",
+    "featured": false
+  },
 ];
