@@ -1152,4 +1152,16 @@ window.PRODUCTS = [
     "image": "assets/images/Cercei frumosi acupunctura (1)(1).png",
     "featured": false
   },
+       {
+    "id": 105,
+    "slug": "Set_24_Betisoare_Adezive_Urechi",
+    "name": "Set 24 Bețișoare Adezive pentru Curățarea Urechilor",
+    "description": "Setul de 24 bețișoare adezive pentru curățarea urechilor este un accesoriu de igienă personală, conceput pentru colectarea delicată a cerumenului și a impurităților accesibile din zona exterioară a urechii.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/01_set_betisoare_urechi_produs(1).png",
+    "featured": false
+  },
 ];
