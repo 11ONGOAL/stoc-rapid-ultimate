@@ -1164,4 +1164,16 @@ window.PRODUCTS = [
     "image": "assets/images/01_set_betisoare_urechi_produs(1).png",
     "featured": false
   },
+        {
+    "id": 106,
+    "slug": "dispozitiv-antifumat-tip-colier",
+    "name": "Dispozitiv Antifumat Tip Colier",
+    "description": "Dispozitivul antifumat tip colier este un accesoriu portabil, conceput pentru persoanele care doresc să își gestioneze obiceiul de a fuma și să introducă exerciții de respirație în rutina zilnică.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/dispozitiv anit-fumat (1)(1).png",
+    "featured": false
+  },
 ];
