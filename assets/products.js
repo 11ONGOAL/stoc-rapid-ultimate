@@ -1132,7 +1132,7 @@ window.PRODUCTS = [
     "id": 103,
     "slug": "set-3-tije-lipire-metalice",
     "name": "Set 3 Tije pentru Lipire și Reparații Metalice la Temperatură Joasă",
-    "description": "Setul de 3 tije pentru lipire metalică la temperatură joasă</strong> este conceput pentru lucrări de întreținere, îmbinare și recondiționare a componentelor metalice.",
+    "description": "Setul de 3 tije pentru lipire metalică la temperatură joasă este conceput pentru lucrări de întreținere, îmbinare și recondiționare a componentelor metalice.",
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
