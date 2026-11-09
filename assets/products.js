@@ -1248,4 +1248,16 @@ window.PRODUCTS = [
     "image": "assets/images/Lipici muste (4).png",
     "featured": false
   },
+       {
+    "id": 113,
+    "slug": "razatoare-manuala-usturoi-ghimbir",
+    "name": "Răzătoare Manuală pentru Usturoi și Ghimbir",
+    "description": "Răzătoarea manuală pentru usturoi și ghimbir este o ustensilă de bucătărie concepută pentru mărunțirea rapidă și uniformă a ingredientelor utilizate în prepararea alimentelor.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/razatoare-manuala-1.png",
+    "featured": false
+  },
 ];
