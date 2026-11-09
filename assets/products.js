@@ -1212,4 +1212,16 @@ window.PRODUCTS = [
     "image": "assets/images/plasturi-anti-stres-1.png",
     "featured": false
   },
+       {
+    "id": 110,
+    "slug": "ulei-pentru-cresterea-parului-eelhoe-60ml",
+    "name": "Ulei pentru Creșterea Părului și Îngrijire Anti-Cădere",
+    "description": "Uleiul pentru îngrijirea părului EELHOE Hair Growth Oil, 60 ml este un produs cosmetic destinat îngrijirii scalpului și a firului de păr.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Ser par (3).png",
+    "featured": false
+  },
 ];
