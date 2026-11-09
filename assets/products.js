@@ -1236,4 +1236,16 @@ window.PRODUCTS = [
     "image": "assets/images/Lavete (1)(1).png",
     "featured": false
   },
+       {
+    "id": 112,
+    "slug": "Set_10_Capcane_Adezive_Galbene_Alexa_Imports",
+    "name": "Set 10 Capcane Adezive Galbene pentru Insecte Zburătoare",
+    "description": "Setul de 10 capcane adezive galbene pentru insecte zburătoare este destinat monitorizării și capturării insectelor din apropierea plantelor.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/Lipici muste (4).png",
+    "featured": false
+  },
 ];
