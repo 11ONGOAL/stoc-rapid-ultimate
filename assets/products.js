@@ -1224,4 +1224,16 @@ window.PRODUCTS = [
     "image": "assets/images/Ser par (3).png",
     "featured": false
   },
+        {
+    "id": 111,
+    "slug": "Set_10_Lavete_Dublu_Abrazive",
+    "name": "Set 10 Lavete Dublu Abrazive pentru Curățarea Vaselor",
+    "description": "Setul de 10 lavete dublu abrazive pentru curățarea vaselor și suprafețelor din bucătărie este conceput pentru îndepărtarea grăsimii, a resturilor alimentare și a depunerilor persistente.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/Lavete (1)(1).png",
+    "featured": false
+  },
 ];
