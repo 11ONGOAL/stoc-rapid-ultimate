@@ -1272,4 +1272,16 @@ window.PRODUCTS = [
     "image": "assets/images/Spray gura amortire instant (1)(1).png",
     "featured": false
   },
+       {
+    "id": 115,
+    "slug": "spray-oral-dureri-dentare",
+    "name": "Spray Oral pentru Calmarea Durerilor de Dinți și Gingiilor",
+    "description": "Spray-ul pentru calmarea durerilor dentare, 30 ml este un produs pentru îngrijirea cavității bucale, conceput pentru utilizarea localizată cu ajutorul aplicatorului direcțional.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/spray-oral-dureri-dentare-1.png",
+    "featured": false
+  },
 ];
