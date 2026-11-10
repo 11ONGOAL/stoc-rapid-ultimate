@@ -1262,7 +1262,7 @@ window.PRODUCTS = [
   },
        {
     "id": 114,
-    "slug": "spray-dureri-dentare-gingivale-20ml",
+    "slug": "Spray_Dureri_Dentare_Gingivale_20ml",
     "name": "Spray pentru Dureri Dentare și Gingivale,20 ml",
     "description": "Spray-ul oral South Moon Toothache Sprays, 20 ml este un produs destinat aplicării locale în cavitatea bucală, fiind promovat pentru calmarea disconfortului asociat durerilor dentare și gingivale.",
     "price": "0 Lei",
