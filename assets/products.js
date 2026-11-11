@@ -1308,4 +1308,16 @@ window.PRODUCTS = [
     "image": "assets/images/Folie protectoare bucatarie (2).png",
     "featured": false
   },
+       {
+    "id": 118,
+    "slug": "sutien-corector-postura",
+    "name": "Sutien de Damă cu Corector de Postură Bej și Negru",
+    "description": "Sutienul de damă cu corector de postură integrat este un articol de lenjerie conceput pentru a combina susținerea bustului cu un design special adaptat zonei spatelui.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/sutien-corector-postura-bej-negru-1.jpg",
+    "featured": false
+  },
 ];
