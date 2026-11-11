@@ -1296,4 +1296,16 @@ window.PRODUCTS = [
     "image": "assets/images/Protectie aragaz (1).png",
     "featured": false
   },
+       {
+    "id": 117,
+    "slug": "folie-adeziva-transparenta-40x500",
+    "name": "Folie Adezivă Transparentă pentru Protecția Mobilierului și Suprafețelor",
+    "description": "Folia adezivă transparentă, cu dimensiunile de 40 x 500 cm</strong>, este un accesoriu practic destinat acoperirii, protejării și recondiționării vizuale a diferitelor suprafețe din locuință sau din spațiile comerciale.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/Folie protectoare bucatarie (2).png",
+    "featured": false
+  },
 ];
