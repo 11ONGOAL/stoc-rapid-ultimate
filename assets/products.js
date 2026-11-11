@@ -1284,4 +1284,16 @@ window.PRODUCTS = [
     "image": "assets/images/spray-oral-dureri-dentare-1.png",
     "featured": false
   },
+        {
+    "id": 116,
+    "slug": "set-4-folii-protectie-aragaz",
+    "name": "Set 4 Folii de Protecție Reutilizabile pentru Aragaz pe Gaz",
+    "description": "Spray-ul pentru calmarea durerilor dentare, 30 ml este un produs pentru îngrijirea cavității bucale, conceput pentru utilizarea localizată cu ajutorul aplicatorului direcțional.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/Protectie aragaz (1).png",
+    "featured": false
+  },
 ];
