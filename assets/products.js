@@ -1320,4 +1320,16 @@ window.PRODUCTS = [
     "image": "assets/images/sutien-corector-postura-bej-negru-1.jpg",
     "featured": false
   },
+       {
+    "id": 119,
+    "slug": "mop-multifunctional-cap-rotund",
+    "name": "Mop Multifuncțional cu Cap Rotund din Microfibră",
+    "description": "Mopul multifuncțional cu cap de curățare rotund și mâner metalic lung este un accesoriu destinat întreținerii suprafețelor din locuință, fiind conceput pentru utilizare în activitățile obișnuite de curățenie.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/Mop (1)(1).png",
+    "featured": false
+  },
 ];
