@@ -1332,4 +1332,16 @@ window.PRODUCTS = [
     "image": "assets/images/Mop (1)(1).png",
     "featured": false
   },
+        {
+    "id": 120,
+    "slug": "set-blocuri-constructie-tip-minecraft-copii",
+    "name": "Set Blocuri de Construcție Tip Minecraft pentru Copii",
+    "description": "Setul de blocuri de construcție tip Minecraft pentru copii este o jucărie creativă inspirată din universul jocurilor video cu lumi formate din cuburi.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/set-blocuri-minecraft-copii-in-utilizare.png",
+    "featured": false
+  },
 ];
