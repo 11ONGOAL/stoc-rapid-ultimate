@@ -1,5 +1,17 @@
 window.PRODUCTS = [
        {
+    "id": 121,
+    "slug": "Set_2_Talonete_Gel_Alexa_Imports",
+    "name": "Set 2 Talonete din Gel pentru Picioare",
+    "description": "Setul de 2 talonete pentru antepicior este conceput pentru a oferi un strat suplimentar de amortizare și confort în zona din față a tălpii.",
+    "price": "8.50 Lei",
+    "stock": "1150 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/Talonete (1)(1).png",
+    "featured": false
+  },
+       {
     "id": 83,
     "slug": "ser-facial-anti-pete-niacinamida-5-30ml",
     "name": "Ser Facial Anti-Pete cu Niacinamidă 5%, 30 ml",
@@ -1342,18 +1354,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Jocuri",
     "image": "assets/images/set-blocuri-minecraft-copii-in-utilizare.png",
-    "featured": false
-  },
-        {
-    "id": 121,
-    "slug": "Set_2_Talonete_Gel_Alexa_Imports",
-    "name": "Set 2 Talonete din Gel pentru Picioare",
-    "description": "Setul de 2 talonete pentru antepicior este conceput pentru a oferi un strat suplimentar de amortizare și confort în zona din față a tălpii.",
-    "price": "0 Lei",
-    "stock": "0 Buc.",
-    "video": "",
-    "category": "Gadgeturi și accesorii",
-    "image": "assets/images/Talonete (1)(1).png",
     "featured": false
   },
 ];
