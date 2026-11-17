@@ -1356,4 +1356,16 @@ window.PRODUCTS = [
     "image": "assets/images/Marker chromat (1)(1).png",
     "featured": false
   },
+        {
+    "id": 122,
+    "slug": "balsam-stick-zona-ochilor-9g",
+    "name": "Balsam Stick pentru Zona Ochilor 9 g",
+    "description": "Balsam pentru îngrijirea pielii delicate din jurul ochilor și a altor zone faciale, în format stick de 9 g, cu extract de colagen.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Blasam ochi (2)(1).png",
+    "featured": false
+  },
 ];
