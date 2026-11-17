@@ -1380,4 +1380,16 @@ window.PRODUCTS = [
     "image": "assets/images/Picaturi caine si pisica (1).png",
     "featured": false
   },
+       {
+    "id": 124,
+    "slug": "papusa-zburatoare-roz",
+    "name": "Păpușă Zburătoare, Roz",
+    "description": "Păpușa zburătoare Flying Fairy Princess, de culoare roz, este o jucărie interactivă concepută pentru a oferi copiilor o experiență de joacă distractivă, inspirată din universul prințeselor și al zânelor.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Jucării",
+    "image": "assets/images/71vLhQF5ybL._SL1500_ (1).jpg",
+    "featured": false
+  },
 ];
