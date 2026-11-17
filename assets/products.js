@@ -1392,4 +1392,16 @@ window.PRODUCTS = [
     "image": "assets/images/71vLhQF5ybL._SL1500_ (1).jpg",
     "featured": false
   },
+       {
+    "id": 125,
+    "slug": "gel-exfoliant-facial-enzime-portocale-100g",
+    "name": "Gel Exfoliant Facial cu Enzime de Portocale, 100 g",
+    "description": "Gel exfoliant facial cu enzime de portocale, 100 g, destinat curățării delicate și îngrijirii tenului pentru un aspect neted și luminos.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/gel exfoliant (2).png",
+    "featured": false
+  },
 ];
