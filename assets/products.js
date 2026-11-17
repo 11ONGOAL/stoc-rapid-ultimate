@@ -1368,4 +1368,16 @@ window.PRODUCTS = [
     "image": "assets/images/Blasam ochi (2)(1).png",
     "featured": false
   },
+        {
+    "id": 123,
+    "slug": "Ser_Pete_Lacrimale_Caini_Pisici_30ml",
+    "name": "Ser pentru Curățarea Petelor Lacrimale la Câini și Pisici 30 ml",
+    "description": "Ser pentru îngrijirea blănii din jurul ochilor câinilor și pisicilor, conceput pentru diminuarea aspectului petelor lacrimale.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Animale",
+    "image": "assets/images/Picaturi caine si pisica (1).png",
+    "featured": false
+  },
 ];
