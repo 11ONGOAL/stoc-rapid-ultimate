@@ -1440,4 +1440,16 @@ window.PRODUCTS = [
     "image": "assets/images/sampon-colorant-eelhoe-1.png",
     "featured": false
   },
+       {
+    "id": 129,
+    "slug": "Kit_pentru_Modelare_Dentara",
+    "name": "Kit pentru Modelare Dentară",
+    "description": "Kitul Snap-On Smile pentru modelare dentară este un set de accesorii conceput pentru realizarea și adaptarea unor forme dentare cu scop estetic.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/Mulaj dentar (2).png",
+    "featured": false
+  },
 ];
