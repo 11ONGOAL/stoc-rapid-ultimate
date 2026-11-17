@@ -1416,4 +1416,16 @@ window.PRODUCTS = [
     "image": "assets/images/Masca de par (1).png",
     "featured": false
   },
+        {
+    "id": 127,
+    "slug": "ulei-cosmetic-pentru-indepartarea-parului-nedorit-60ml",
+    "name": "Ulei Cosmetic pentru Îndepărtarea Părului Nedorit, Îngrijirea Pielii, 60 ml",
+    "description": "Uleiul cosmetic Xinomth Cyperus Rotundus Oil, 60 ml, este un produs destinat îngrijirii pielii și completării rutinei de îndepărtare a părului nedorit.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/ulei-depilator-2.png",
+    "featured": false
+  },
 ];
