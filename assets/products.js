@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+           {
+    "id": 121,
+    "slug": "Marker_Profesional_2in1_Suprafete_Cromate",
+    "name": "Marker Profesional 2 în 1 pentru Repararea și Retușarea Suprafețelor Cromate",
+    "description": "Markerul profesional 2 în 1 pentru suprafețe cromate, 20 ml, este un produs destinat retușării estetice și îmbunătățirii aspectului elementelor cu finisaj cromat.",
+    "price": "12 Lei",
+    "stock": "1000 Buc.",
+    "video": "",
+    "category": "Auto",
+    "image": "assets/images/Marker chromat (1)(1).png",
+    "featured": false
+  },
        {
     "id": 80,
     "slug": "pusculita-electronica-hello-kitty",
@@ -1425,18 +1437,6 @@ window.PRODUCTS = [
     "video": "",
     "category": "Beauty",
     "image": "assets/images/Screenshot_2026-08-27_142009.jpg",
-    "featured": false
-  },
-        {
-    "id": 121,
-    "slug": "Marker_Profesional_2in1_Suprafete_Cromate",
-    "name": "Marker Profesional 2 în 1 pentru Repararea și Retușarea Suprafețelor Cromate",
-    "description": "Markerul profesional 2 în 1 pentru suprafețe cromate, 20 ml, este un produs destinat retușării estetice și îmbunătățirii aspectului elementelor cu finisaj cromat.",
-    "price": "0 Lei",
-    "stock": "0 Buc.",
-    "video": "",
-    "category": "Auto",
-    "image": "assets/images/Marker chromat (1)(1).png",
     "featured": false
   },
 ];
