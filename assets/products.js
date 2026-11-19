@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+            {
+    "id": 122,
+    "slug": "banda-adeziva-etansare-baie-bucatarie-versiune-actualizata",
+    "name": "Bandă Adezivă de Etanșare pentru Baie și Bucătărie",
+    "description": "Bandă autoadezivă impermeabilă pentru etanșarea rosturilor din baie și bucătărie, 3,6 m x 4 cm, pentru îmbinări și finisaje discrete.",
+    "price": "9 Lei",
+    "stock": "1850 Buc.",
+    "video": "",
+    "category": "Auto",
+    "image": "assets/images/banda-adeziva-etansare-baie-bucatarie-1.png",
+    "featured": false
+  },
            {
     "id": 121,
     "slug": "Marker_Profesional_2in1_Suprafete_Cromate",
