@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+               {
+    "id": 123,
+    "slug": "spray-vopsea-retusare-pereti-jue-fish-60ml",
+    "name": "Spray Vopsea pentru Retușarea Pereților",
+    "description": "Spray Jue Fish Wall Spray, 60 ml, pentru mascarea vizuală a petelor și retușarea localizată a pereților interiori.",
+    "price": "12 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/spray-vopsea-retusare-pereti-jue-fish-1.png",
+    "featured": false
+  },
             {
     "id": 122,
     "slug": "banda-adeziva-etansare-baie-bucatarie-versiune-actualizata",
@@ -7,7 +19,7 @@ window.PRODUCTS = [
     "price": "9 Lei",
     "stock": "1850 Buc.",
     "video": "",
-    "category": "Auto",
+    "category": "Casă și grădină",
     "image": "assets/images/banda-adeziva-etansare-baie-bucatarie-1.png",
     "featured": false
   },
