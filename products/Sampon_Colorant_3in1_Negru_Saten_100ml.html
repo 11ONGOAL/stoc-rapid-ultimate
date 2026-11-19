@@ -124,6 +124,7 @@
 .color-variant-option.is-selected { border: 2px solid #f47524; background: #fff8f3; padding: 11px 13px; }
 .color-variant-option:focus-visible { outline: 3px solid #163868; outline-offset: 2px; }
 .variant-selection-text { font-size: 13px; color: #52627c; margin: 0 0 14px; }
+.detail-price-row .variant-vat-price { display: block; margin-top: 6px; font-size: 12px; font-weight: 400; color: #52627c; }
 @media (max-width: 420px) { .color-variant-options { grid-template-columns: 1fr; } }
 </style>
 </head>
@@ -180,17 +181,17 @@
           <div class="color-variant-options">
             <button type="button" class="color-variant-option is-selected" data-color="negru" aria-pressed="true">
               <strong>Negru</strong>
-              <span>100 ml · 1,00 Lei · Stoc: 1000 buc.</span>
+              <span>100 ml · 16,00 Lei fără TVA · 19,36 Lei cu TVA · Stoc: 1000 buc.</span>
             </button>
             <button type="button" class="color-variant-option" data-color="saten" aria-pressed="false">
               <strong>Șaten</strong>
-              <span>100 ml · 16,00 Lei · Stoc: 1000 buc.</span>
+              <span>100 ml · 16,00 Lei fără TVA · 19,36 Lei cu TVA · Stoc: 1000 buc.</span>
             </button>
           </div>
         </div>
         <p class="variant-selection-text" aria-live="polite">Culoare selectată: <strong id="selectedVariantName">Negru</strong> · Cantitate: <strong id="selectedVariantVolume">100 ml</strong></p>
         <div class="detail-price-row">
-          <div><span class="detail-label">Preț B2B · <span id="selectedPriceVariant">Negru</span></span><strong class="detail-price" id="selectedVariantPrice">16,00 Lei</strong></div>
+          <div><span class="detail-label">Preț B2B orientativ (fără TVA) · <span id="selectedPriceVariant">Negru</span></span><strong class="detail-price" id="selectedVariantPrice">16,00 Lei</strong><small class="variant-vat-price">(cu TVA 21%: <span id="selectedVariantPriceWithVat">19,36 Lei</span>)</small></div>
           <div><span class="detail-label">Stoc declarat · <span id="selectedStockVariant">Negru</span></span><strong class="detail-stock out-of-stock" id="selectedVariantStock">1000 buc.</strong></div>
         </div>
         <div class="detail-actions">
@@ -256,10 +257,10 @@ function selectProductImage(button) {
   document.querySelectorAll('.gallery-thumbnails button').forEach(item => item.setAttribute('aria-pressed', String(item === button)));
 }
 
-/* Variante locale: aceeași cantitate de 100 ml și valori distincte per culoare. */
+/* Variante locale: aceeași cantitate, preț și stoc pentru ambele culori. */
 const shampooVariants = {
-  negru: { name: 'Negru', volume: '100 ml', price: 0, stock: 0, imageIndex: 1 },
-  saten: { name: 'Șaten', volume: '100 ml', price: 0, stock: 0, imageIndex: 2 }
+  negru: { name: 'Negru', volume: '100 ml', price: 16, stock: 1000, imageIndex: 1 },
+  saten: { name: 'Șaten', volume: '100 ml', price: 16, stock: 1000, imageIndex: 2 }
 };
 const productName = 'Șampon Colorant pentru Păr 3 în 1 Negru și Șaten, 100 ml';
 function selectColorVariant(color) {
@@ -275,6 +276,7 @@ function selectColorVariant(color) {
   document.getElementById('selectedPriceVariant').textContent = variant.name;
   document.getElementById('selectedStockVariant').textContent = variant.name;
   document.getElementById('selectedVariantPrice').textContent = variant.price.toFixed(2).replace('.', ',') + ' Lei';
+  document.getElementById('selectedVariantPriceWithVat').textContent = (Math.round(variant.price * 1.21 * 100) / 100).toFixed(2).replace('.', ',') + ' Lei';
   document.getElementById('selectedVariantStock').textContent = variant.stock + ' buc.';
   const chosenImage = document.querySelectorAll('.gallery-thumbnails button')[variant.imageIndex];
   if (chosenImage) selectProductImage(chosenImage);
