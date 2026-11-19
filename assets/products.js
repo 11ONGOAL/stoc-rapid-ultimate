@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+  {
+    "id": 124,
+    "slug": "proiector-led-craciun-alimentare-usb",
+    "name": "Proiector LED de Crăciun cu Alimentare USB",
+    "description": "Proiectorul LED de Crăciun cu alimentare USB este un accesoriu decorativ conceput pentru a transforma atmosfera încăperilor în perioada sărbătorilor de iarnă.",
+    "price": "29 Lei",
+    "stock": "500 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/proiector-led-craciun-usb-1.png",
+    "featured": false
+  },
                {
     "id": 123,
     "slug": "spray-vopsea-retusare-pereti-jue-fish-60ml",
