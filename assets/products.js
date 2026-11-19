@@ -326,7 +326,7 @@ window.PRODUCTS = [
        {
     "id": 129,
     "slug": "Kit_pentru_Modelare_Dentara",
-    "name": "Kit pentru Modelare Dentară",
+    "name": "Fațete Dentare",
     "description": "Kitul Snap-On Smile pentru modelare dentară este un set de accesorii conceput pentru realizarea și adaptarea unor forme dentare cu scop estetic.",
     "price": "10 Lei",
     "stock": "600 Buc.",
