@@ -1499,4 +1499,16 @@ window.PRODUCTS = [
     "image": "assets/images/branturi-ergonomice-incaltaminte-set-2-bucati-5.png",
     "featured": false
   },
+  {
+    "id": 127,
+    "slug": "set-6-lavete-curatare-microfibra-extra-groasa",
+    "name": "Set 6 Lavete de Curățare din Microfibră Extra Groasă",
+    "description": "Set de 6 lavete gri, din microfibră extra groasă, absorbante și reutilizabile, pentru curățare uscată și umedă.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/set-6-lavete-curatare-microfibra-extra-groasa-1.png",
+    "featured": false
+  },
 ];
