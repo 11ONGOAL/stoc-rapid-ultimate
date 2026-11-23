@@ -1560,4 +1560,3 @@ window.PRODUCTS = [
     "featured": false
   },
 ];
-];
