@@ -1535,4 +1535,16 @@ window.PRODUCTS = [
     "image": "assets/images/set-6-reductoare-debit-dus-adaptor-alama-cromata-127-cm-4.png",
     "featured": false
   },
+    {
+    "id": 131,
+    "slug": "banda-sustinere-rotula-pentru-genunchi-gri",
+    "name": "Bandă de Susținere Rotulă pentru Genunchi, Gri",
+    "description": "Bandă de susținere rotulă pentru genunchi, cu suport anatomic din silicon și curea reglabilă, pentru compresie localizată în timpul activităților sportive.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/banda-sustinere-rotula-pentru-genunchi-gri-4.jpg",
+    "featured": false
+  },
 ];
