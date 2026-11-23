@@ -1551,7 +1551,7 @@ window.PRODUCTS = [
     "id": 132,
     "slug": "centura-sustinere-pentru-bazin-si-solduri",
     "name": "Centură de Susținere pentru Bazin și Șolduri",
-    "description": "Centura reglabilă de susținere pentru bazin și șolduri</strong> este un accesoriu ergonomic conceput pentru a oferi compresie și stabilitate în regiunea pelviană, prin intermediul unui sistem de benzi elastice ajustabile.",
+    "description": "Centura reglabilă de susținere pentru bazin și șolduri este un accesoriu ergonomic conceput pentru a oferi compresie și stabilitate în regiunea pelviană, prin intermediul unui sistem de benzi elastice ajustabile.",
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
