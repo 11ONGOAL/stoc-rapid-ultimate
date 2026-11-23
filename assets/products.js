@@ -1525,18 +1525,6 @@ window.PRODUCTS = [
   },
   {
     "id": 130,
-    "slug": "orteza-compresiva-sold-coapsa-unisex-albastru",
-    "name": "Orteză Compresivă pentru Șold și Coapsă, Unisex, Albastru",
-    "description": "Orteză compresivă NEO G pentru șold, zona inghinală și coapsă, din neopren flexibil, cu benzi reglabile, unisex, pentru piciorul stâng sau drept.",
-    "price": "0 Lei",
-    "stock": "0 Buc.",
-    "video": "",
-    "category": "Gadgeturi și accesorii",
-    "image": "assets/images/orteza-compresiva-sold-coapsa-unisex-albastru-1.jpg",
-    "featured": false
-  },
-  {
-    "id": 131,
     "slug": "set-6-reductoare-debit-dus-adaptor-alama-cromata-127-cm",
     "name": "Set 6 Reductoare de Debit pentru Duș, cu Adaptor din Alamă Cromată 1,27 cm",
     "description": "Set cu 6 reductoare de debit interschimbabile pentru duș și adaptor din alamă cromată cu racord 1/2 inch, pentru limitarea consumului de apă.",
