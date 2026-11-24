@@ -1583,4 +1583,16 @@ window.PRODUCTS = [
     "image": "assets/images/jucarie-interactiva-electrica-pentru-pisici-1.webp",
     "featured": false
   },
+  {
+    "id": 135,
+    "slug": "set-30-perechi-cercei-fashion-femei",
+    "name": "Set 30 Perechi de Cercei Fashion pentru Femei",
+    "description": "Set de 30 de perechi de cercei fashion, cu modele asortate, forme florale, inimioare, strasuri și finisaje aurii, argintii și negre.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/set-30-perechi-cercei-fashion-femei-1.png",
+    "featured": false
+  },
 ];
