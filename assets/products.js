@@ -1559,4 +1559,16 @@ window.PRODUCTS = [
     "image": "assets/images/centura-sustinere-pentru-bazin-si-solduri-1.png",
     "featured": false
   },
+   {
+    "id": 133,
+    "slug": "set-12-piese-ventuze-masaj-corporal-cu-vacuum",
+    "name": "Set 12 Piese Ventuze pentru Masaj Corporal cu Vacuum",
+    "description": "Set de 12 piese pentru masaj cu ventuze vacuum, pompă manuală de aspirare și cupe transparente de diferite dimensiuni, pentru aplicare corporală localizată.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/set-12-piese-ventuze-masaj-corporal-cu-vacuum-1.png",
+    "featured": false
+  },
 ];
