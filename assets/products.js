@@ -1567,8 +1567,20 @@ window.PRODUCTS = [
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
-    "category": "Gadgeturi și accesorii",
+    "category": "Beauty",
     "image": "assets/images/set-12-piese-ventuze-masaj-corporal-cu-vacuum-1.png",
+    "featured": false
+  },
+  {
+    "id": 134,
+    "slug": "jucarie-interactiva-electrica-pentru-pisici",
+    "name": "Jucărie Interactivă Electrică pentru Pisici",
+    "description": "Minge interactivă electrică pentru pisici, cu șnur textil, carcasă transparentă și acumulator reîncărcabil USB.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Animale",
+    "image": "assets/images/jucarie-interactiva-electrica-pentru-pisici-1.webp",
     "featured": false
   },
 ];
