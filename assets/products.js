@@ -152,7 +152,7 @@ window.PRODUCTS = [
     "stock": "500 Buc.",
     "video": "",
     "category": "Beauty",
-    "image": "assets/images/ par (3).png",
+    "image": "assets/images/Ser par (3).png",
     "featured": false
   },
         {
