@@ -1595,4 +1595,16 @@ window.PRODUCTS = [
     "image": "assets/images/set-30-perechi-cercei-fashion-femei-1.png",
     "featured": false
   },
+  {
+    "id": 136,
+    "slug": "cotiera-auto-universala-pentru-consola-centrala",
+    "name": "Cotieră Auto Universală pentru Consola Centrală",
+    "description": "Cotieră auto universală pentru consola centrală, cu suport pentru pahare, compartiment pentru șervețele și spațiu pentru obiecte mici, finisaj negru capitonat.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Auto",
+    "image": "assets/images/cotiera-auto-universala-consola-centrala-2.png",
+    "featured": false
+  },
 ];
