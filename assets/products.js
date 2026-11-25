@@ -1655,4 +1655,16 @@ window.PRODUCTS = [
     "image": "assets/images/patura-pufoasa-fosforescenta-pentru-copii-cu-unicorni-2.png",
     "featured": false
   },
+   {
+    "id": 141,
+    "slug": "husa-de-protectie-pentru-parbriz-auto",
+    "name": "Husă de Protecție pentru Parbriz Auto",
+    "description": "Husă exterioară pentru parbriz, protecție împotriva zăpezii, gheții, prafului, frunzelor și murdăriei.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Auto",
+    "image": "assets/images/husa-de-protectie-pentru-parbriz-auto-2.png",
+    "featured": false
+  },
 ];
