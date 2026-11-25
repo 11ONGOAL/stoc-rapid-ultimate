@@ -1631,4 +1631,16 @@ window.PRODUCTS = [
     "image": "assets/images/covoras-decorativ-pentru-bradul-de-craciun-1.png",
     "featured": false
   },
+  {
+    "id": 139,
+    "slug": "prosop-pentru-uscarea-parului-din-microfibra",
+    "name": "Prosop pentru Uscarea Părului din Microfibră",
+    "description": "Prosop din microfibră cu textură moale și absorbantă, conceput pentru îndepărtarea delicată a excesului de apă din păr după spălare.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/prosop-pentru-uscarea-parului-din-microfibra-1.png",
+    "featured": false
+  },
 ];
