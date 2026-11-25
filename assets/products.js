@@ -1727,4 +1727,16 @@ window.PRODUCTS = [
     "image": "assets/images/disc-abraziv-pentru-polizor-unghiular-2.webp",
     "featured": false
   },
+  {
+    "id": 146,
+    "slug": "pensula-machiaj-curbata-cu-etui",
+    "name": "Pensulă de Machiaj Curbată, cu Peri Deși și Etui",
+    "description": "Pensulă compactă pentru aplicarea și uniformizarea produselor de machiaj, cu design curbat și etui de protecție.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/pensula-machiaj-curbata-cu-etui-3.webp",
+    "featured": false
+  },
 ];
