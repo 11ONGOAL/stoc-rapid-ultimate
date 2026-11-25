@@ -1679,4 +1679,16 @@ window.PRODUCTS = [
     "image": "assets/images/brad-de-craciun-decorativ-de-perete-din-fetru-100x77-cm-1.png",
     "featured": false
   },
+  {
+    "id": 143,
+    "slug": "tigaie-antiaderenta-cu-4-compartimente-pentru-oua-0739950885",
+    "name": "Tigaie Antiaderentă cu 4 Compartimente pentru Ouă",
+    "description": "Tigaie antiaderentă cu 4 compartimente rotunde, pentru prepararea simultană a ouălor, mini omletelor, clătitelor și altor porții individuale.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/tigaie-antiaderenta-cu-4-compartimente-pentru-oua-3.webp",
+    "featured": false
+  },
 ];
