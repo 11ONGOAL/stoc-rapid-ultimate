@@ -1607,4 +1607,16 @@ window.PRODUCTS = [
     "image": "assets/images/cotiera-auto-universala-consola-centrala-2.png",
     "featured": false
   },
+  {
+    "id": 137,
+    "slug": "instalatie-luminoasa-led-tip-perdea-pentru-fereastra",
+    "name": "Instalație Luminoasă LED Tip Perdea pentru Fereastră ",
+    "description": "Instalația luminoasă LED tip perdea, cu șiruri suspendate și lumină alb cald, este un accesoriu decorativ conceput pentru iluminarea ambientală a ferestrelor, perdelelor și diferitelor spații interioare.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/instalatie-luminoasa-led-tip-perdea-pentru-fereastra-1.png",
+    "featured": false
+  },
 ];
