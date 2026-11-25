@@ -1715,4 +1715,16 @@ window.PRODUCTS = [
     "image": "assets/images/cablu-usb-a-usb-c-65w-cu-suport-1.webp",
     "featured": false
   },
+  {
+    "id": 145,
+    "slug": "disc-abraziv-pentru-polizor-unghiular",
+    "name": "Disc Abraziv pentru Polizor Unghiular, cu Profil dințat",
+    "description": "Disc abraziv cu suprafață texturată și profil concav, destinat operațiunilor de prelucrare a suprafețelor compatibile.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/disc-abraziv-pentru-polizor-unghiular-2.webp",
+    "featured": false
+  },
 ];
