@@ -1739,4 +1739,16 @@ window.PRODUCTS = [
     "image": "assets/images/pensula-machiaj-curbata-cu-etui-3.webp",
     "featured": false
   },
+   {
+    "id": 147,
+    "slug": "puzzle-3d-animale-diy-copii",
+    "name": "Puzzle 3D DIY pentru Copii, Figurine cu Animale",
+    "description": "Activitate creativă de asamblare a figurinelor tridimensionale cu animale, din piese ilustrate.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Jocuri",
+    "image": "assets/images/puzzle-3d-animale-diy-copii-1.webp",
+    "featured": false
+  },
 ];
