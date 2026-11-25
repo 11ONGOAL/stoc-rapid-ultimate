@@ -1691,4 +1691,16 @@ window.PRODUCTS = [
     "image": "assets/images/tigaie-antiaderenta-cu-4-compartimente-pentru-oua-3.webp",
     "featured": false
   },
+    {
+    "id": 144,
+    "slug": "bariera-siliconica-pentru-dus",
+    "name": "Barieră Flexibilă din Silicon pentru Duș, Autoadezivă",
+    "description": "O soluție practică pentru portofoliile B2B de accesorii pentru baie și amenajarea locuinței.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/bariera-siliconica-pentru-dus-3.webp",
+    "featured": false
+  },
 ];
