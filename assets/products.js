@@ -1643,4 +1643,16 @@ window.PRODUCTS = [
     "image": "assets/images/prosop-pentru-uscarea-parului-din-microfibra-1.png",
     "featured": false
   },
+   {
+    "id": 140,
+    "slug": "patura-pufoasa-fosforescenta-pentru-copii-cu-unicorni",
+    "name": "Prosop pentru Uscarea Părului din Microfibră",
+    "description": "Prosop din microfibră cu textură moale și absorbantă, conceput pentru îndepărtarea delicată a excesului de apă din păr după spălare.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/prosop-pentru-uscarea-parului-din-microfibra-1.png",
+    "featured": false
+  },
 ];
