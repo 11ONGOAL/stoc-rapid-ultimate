@@ -1667,4 +1667,16 @@ window.PRODUCTS = [
     "image": "assets/images/husa-de-protectie-pentru-parbriz-auto-2.png",
     "featured": false
   },
+  {
+    "id": 142,
+    "slug": "brad-de-craciun-decorativ-de-perete-din-fetru-100x77-cm-0739950885",
+    "name": "Brad de Crăciun Decorativ de Perete din Fetru, 100 × 77 cm",
+    "description": "Bradul decorativ de Crăciun pentru perete, realizat din material textil tip fetru și prevăzut cu ornamente colorate.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Casă și grădină",
+    "image": "assets/images/brad-de-craciun-decorativ-de-perete-din-fetru-100x77-cm-1.png",
+    "featured": false
+  },
 ];
