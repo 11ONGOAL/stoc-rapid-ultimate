@@ -1,4 +1,16 @@
 window.PRODUCTS = [
+    {
+    "id": 16,
+    "slug": "colanti-modelatori-cu-talie-inalta",
+    "name": "Colanți modelatori cu talie înaltă",
+    "description": "Shapewear pentru abdomen plat, talie subțire & efect push-up natural, disponibil în negru și bej",
+    "price": "14 Lei",
+    "stock": "1000",
+    "video": "https://i.imgur.com/xwiyxIa",
+    "category": "Beauty",
+    "image": "assets/images/colanti-modelatori-cu-talie-inalta.jpg",
+    "featured": false
+  },
   {
     "id": 125,
     "slug": "ascutitor-multifunctional-pentru-burghie-portabil-6cm",
@@ -1653,18 +1665,6 @@ window.PRODUCTS = [
     "video": "https://i.imgur.com/i0WiC7B",
     "category": "Beauty",
     "image": "assets/images/ceara-de-par-pentru-fire-rebele.jpg",
-    "featured": false
-  },
-         {
-    "id": 16,
-    "slug": "colanti-modelatori-cu-talie-inalta",
-    "name": "Colanți modelatori cu talie înaltă",
-    "description": "Shapewear pentru abdomen plat, talie subțire & efect push-up natural, disponibil în negru și bej",
-    "price": "14 Lei",
-    "stock": "0",
-    "video": "https://i.imgur.com/xwiyxIa",
-    "category": "Beauty",
-    "image": "assets/images/colanti-modelatori-cu-talie-inalta.jpg",
     "featured": false
   },
        {
