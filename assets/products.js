@@ -1763,4 +1763,16 @@ window.PRODUCTS = [
     "image": "assets/images/mini-polizor-electric-multifunctional-60w-2.png",
     "featured": false
   },
+     {
+    "id": 131,
+    "slug": "crema-depilatoare-zencolor-racleta",
+    "name": "Cremă Depilatoare pentru Corp, cu Racletă Inclusă",
+    "description": "Crema depilatoare Zencolor, cu racletă pentru îndepărtarea părului corporal, este un produs cosmetic destinat eliminării părului nedorit de la suprafața pielii, oferind o alternativă la metodele mecanice tradiționale de epilare.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Beauty",
+    "image": "assets/images/crema-depilatoare-zencolor-racleta-5.png",
+    "featured": false
+  },
 ];
