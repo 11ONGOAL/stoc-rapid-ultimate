@@ -917,7 +917,7 @@ window.PRODUCTS = [
     "name": "Colanti Termici Vătuiți cu Interior Moale pentru Damă tip Ciorapi cu Căptuseala Groasă",
     "description": "Colanți termici de damă, ideali pentru sezonul rece, concepuți pentru a oferi confort, căldură și un aspect elegant.",
     "price": "17 Lei",
-    "stock": "1000 Buc.",
+    "stock": "3000 Buc.",
     "video": "",
     "category": "Casă și Grădină",
     "image": "assets/images/colanti-termici-model.webp",
