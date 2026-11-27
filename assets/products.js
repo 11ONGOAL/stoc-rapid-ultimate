@@ -1775,4 +1775,16 @@ window.PRODUCTS = [
     "image": "assets/images/crema-depilatoare-zencolor-racleta-5.png",
     "featured": false
   },
+    {
+    "id": 132,
+    "slug": "proiector-rotativ-stele-luna-star-master-0739950885",
+    "name": "Proiector Rotativ de Stele și Lună, Albastru, Mov sau Roz",
+    "description": "Proiectorul rotativ de stele și lună Star Master</strong> este un dispozitiv de iluminat decorativ, conceput pentru a crea efecte vizuale inspirate din cerul nocturn.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/proiector-rotativ-stele-luna-star-master-ambalaj.png",
+    "featured": false
+  },
 ];
