@@ -1779,7 +1779,7 @@ window.PRODUCTS = [
     "id": 132,
     "slug": "proiector-rotativ-stele-luna-star-master-0739950885",
     "name": "Proiector Rotativ de Stele și Lună, Albastru, Mov sau Roz",
-    "description": "Proiectorul rotativ de stele și lună Star Master</strong> este un dispozitiv de iluminat decorativ, conceput pentru a crea efecte vizuale inspirate din cerul nocturn.",
+    "description": "Proiectorul rotativ de stele și lună Star Master este un dispozitiv de iluminat decorativ, conceput pentru a crea efecte vizuale inspirate din cerul nocturn.",
     "price": "0 Lei",
     "stock": "0 Buc.",
     "video": "",
