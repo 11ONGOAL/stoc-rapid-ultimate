@@ -11,9 +11,9 @@
 <style>
 /* Exclusiv galerie și selector culoare pentru acest produs; restul designului provine din styles.css. */
 #star-master-gallery .star-master-thumbnails { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
-#star-master-gallery .star-master-thumb { width:76px; height:76px; padding:4px; background:#fff; border:1px solid #d8dfe8; border-radius:9px; cursor:pointer; }
-#star-master-gallery .star-master-thumb[aria-pressed="true"] { border:2px solid #0e1d33; padding:3px; }
-#star-master-gallery .star-master-thumb img { width:100%; height:100%; object-fit:contain; border-radius:5px; }
+#star-master-gallery .star-master-thumb { width:76px; height:76px; padding:0; background:#fff; border:1px solid #d8dfe8; border-radius:9px; cursor:pointer; overflow:hidden; display:block; flex:none; }
+#star-master-gallery .star-master-thumb[aria-pressed="true"] { border:2px solid #0e1d33; padding:0; }
+#star-master-gallery .star-master-thumb img { display:block; width:100% !important; height:100% !important; max-width:none !important; max-height:none !important; object-fit:cover !important; object-position:center; border-radius:0; margin:0 !important; padding:0 !important; }
 .star-master-color-select { margin:18px 0 20px; }
 .star-master-color-label { margin:0 0 10px; font-size:14px; }
 .star-master-color-options { display:flex; gap:10px; flex-wrap:wrap; }
