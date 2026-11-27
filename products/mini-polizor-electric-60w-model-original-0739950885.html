@@ -8,6 +8,46 @@
 <title>Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W | Alexa Imports</title>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <link href="../assets/styles.css" rel="stylesheet"/>
+<style>
+/* Exclusiv miniaturile mini-polizorului: stilul celui de-al doilea cod */
+.product-detail-image.product-gallery { min-width: 0; }
+.product-gallery .gallery-thumbnails {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+  margin-top: 12px;
+}
+.product-gallery .gallery-thumb {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  aspect-ratio: 1 / 1;
+  padding: 0;
+  border-radius: 10px;
+  border: 1px solid #d8dfe8;
+  background: white;
+  cursor: pointer;
+  overflow: hidden;
+}
+.product-gallery .gallery-thumb img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.product-gallery .gallery-thumb[aria-pressed="true"] {
+  border: 2px solid #af3442;
+  padding: 0;
+}
+.product-gallery .gallery-thumb:focus-visible {
+  outline: 3px solid #163868;
+  outline-offset: 2px;
+}
+@media (max-width: 400px) {
+  .product-gallery .gallery-thumbnails { gap: 6px; }
+}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -30,7 +70,17 @@
 <div class="container">
 <nav aria-label="Breadcrumb" class="breadcrumbs"><a href="../index.html">Acasă</a><span>›</span><a href="../index.html#produse">Bricolaj</a><span>›</span><span>Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W</span></nav>
 <section class="product-detail">
-<div class="product-detail-image"><img alt="Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W – aparat în utilizare" id="mainProductImage" src="../assets/images/mini-polizor-electric-multifunctional-60w-1.png"/><div style="display:flex;gap:8px;margin-top:10px;align-items:center"><button type="button" onclick="document.getElementById('mainProductImage').src=this.querySelector('img').src;document.getElementById('mainProductImage').alt=this.querySelector('img').alt" aria-label="Afișează imaginea 1" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:4px;width:82px;height:70px;cursor:pointer"><img alt="Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W – aparat în utilizare" src="../assets/images/mini-polizor-electric-multifunctional-60w-1.png" style="width:100%;height:100%;object-fit:contain"/></button><button type="button" onclick="document.getElementById('mainProductImage').src=this.querySelector('img').src;document.getElementById('mainProductImage').alt=this.querySelector('img').alt" aria-label="Afișează imaginea 2" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:4px;width:82px;height:70px;cursor:pointer"><img alt="Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W – componentele setului" src="../assets/images/mini-polizor-electric-multifunctional-60w-2.png" style="width:100%;height:100%;object-fit:contain"/></button></div></div>
+<div class="product-detail-image product-gallery">
+  <img alt="Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W – aparat în utilizare" id="mainProductImage" src="../assets/images/mini-polizor-electric-multifunctional-60w-1.png"/>
+  <div class="gallery-thumbnails" id="galleryThumbnails" aria-label="Galerie imagini Mini Polizor Electric Multifuncțional">
+  <button type="button" class="gallery-thumb" onclick="selectProductImage(this)" aria-label="Afișează imaginea 1 din 2" aria-pressed="true">
+    <img alt="Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W – aparat în utilizare" src="../assets/images/mini-polizor-electric-multifunctional-60w-1.png"/>
+  </button>
+  <button type="button" class="gallery-thumb" onclick="selectProductImage(this)" aria-label="Afișează imaginea 2 din 2" aria-pressed="false">
+    <img alt="Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W – componentele setului" src="../assets/images/mini-polizor-electric-multifunctional-60w-2.png"/>
+  </button>
+  </div>
+</div>
 <div class="product-detail-copy">
 <span class="detail-category">Bricolaj</span>
 <h1>Mini Polizor Electric Multifuncțional pentru Ascuțit Cuțite și Unelte, cu 2 Pietre de Șlefuit, Motor 60W</h1>
@@ -51,5 +101,17 @@
 <section class="product-contact-strip"><div class="container"><div><strong>Ai nevoie de mai multe informații?</strong><span>Contactează-ne direct pentru preț, stoc și cantitate.</span></div><div class="product-contact-actions"><a class="btn btn-light" href="tel:+40739950885">(0739) 950 885</a><a class="btn btn-whatsapp" href="https://wa.me/40739950885?text=Bun%C4%83%20ziua%2C%20doresc%20detalii%20%C8%99i%20ofert%C4%83%20pentru%20produsul%3A%20Mini%20Polizor%20Electric%20Multifunc%C8%9Bional%20pentru%20Ascu%C8%9Bit%20Cu%C8%9Bite%20%C8%99i%20Unelte%2C%20cu%202%20Pietre%20de%20%C8%98lefuit%2C%20Motor%2060W." rel="noopener" target="_blank">WhatsApp</a></div></div></section>
 <footer class="site-footer"><div class="container footer-grid"><div><a class="brand footer-brand" href="../index.html"><img alt="" src="../assets/images/logo-alexa-imports.png"/><span>Alexa Imports</span></a><p>Import • stoc • livrare. Catalog B2B.</p></div><div><h3>Navigare</h3><a href="../index.html#categorii">Categorii</a><a href="../index.html#produse">Produse</a><a href="../index.html#contact">Contact</a></div><div><h3>Contact</h3><a href="tel:+40739950885">(0739) 950 885</a><a href="https://wa.me/40739950885?text=Bun%C4%83%20ziua%2C%20doresc%20detalii%20%C8%99i%20ofert%C4%83%20pentru%20produsul%3A%20Mini%20Polizor%20Electric%20Multifunc%C8%9Bional%20pentru%20Ascu%C8%9Bit%20Cu%C8%9Bite%20%C8%99i%20Unelte%2C%20cu%202%20Pietre%20de%20%C8%98lefuit%2C%20Motor%2060W." rel="noopener" target="_blank">WhatsApp</a></div></div><div class="container footer-bottom"><p>© 2026 Alexa Imports. Toate drepturile rezervate.</p><p class="disclaimer">Prețurile din catalog sunt orientative și nu includ TVA, conform documentului furnizat. Verificați conformitatea, etichetarea și afirmațiile comerciale înainte de punerea produselor pe piață.</p></div></footer>
 <script src="../assets/app.js"></script>
+<script>
+function selectProductImage(button) {
+  const main = document.getElementById('mainProductImage');
+  const thumb = button.querySelector('img');
+  if (!main || !thumb) return;
+  main.src = thumb.getAttribute('src');
+  main.alt = thumb.alt;
+  document.querySelectorAll('#galleryThumbnails .gallery-thumb').forEach(item => {
+    item.setAttribute('aria-pressed', String(item === button));
+  });
+}
+</script>
 </body>
 </html>
