@@ -1799,4 +1799,16 @@ window.PRODUCTS = [
     "image": "assets/images/aparat-auditiv-pentru-adulti-3.png",
     "featured": false
   },
+    {
+    "id": 134,
+    "slug": "suport-auto-multifunctional-2-in-1-pentru-telefon",
+    "name": "Suport Auto Multifuncțional 2 în 1 pentru Telefon",
+    "description": "Suportul auto multifuncțional 2 în 1 pentru telefon, cu afișaj pentru numărul de contact.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Auto",
+    "image": "assets/images/suport-auto-multifunctional-2-in-1-pentru-telefon-1.png",
+    "featured": false
+  },
 ];
