@@ -8,6 +8,42 @@
 <title>Aparat Auditiv pentru Adulți | Alexa Imports</title>
 <link href="../assets/images/favicon.png" rel="icon"/>
 <link href="../assets/styles.css" rel="stylesheet"/>
+<style>
+/* Doar galeria aparatului auditiv: 3 miniaturi mari, pe un singur rând. */
+.product-detail-image .hearing-gallery {
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 12px !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-top: 12px !important;
+  align-items: stretch !important;
+  box-sizing: border-box !important;
+}
+.product-detail-image .hearing-gallery > button {
+  display: block !important;
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: auto !important;
+  aspect-ratio: 1 / 1 !important;
+  flex: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border-radius: 10px !important;
+  box-sizing: border-box !important;
+}
+.product-detail-image .hearing-gallery > button > img {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  margin: 0 !important;
+}
+</style>
 </head>
 <body>
 <header class="site-header">
@@ -30,7 +66,7 @@
 <div class="container">
 <nav aria-label="Breadcrumb" class="breadcrumbs"><a href="../index.html">Acasă</a><span>›</span><a href="../index.html#produse">Beauty</a><span>›</span><span>Aparat Auditiv pentru Adulți</span></nav>
 <section class="product-detail">
-<div class="product-detail-image"><img alt="Aparat auditiv pentru adulți – prezentare în locuință" id="mainProductImage" src="../assets/images/aparat-auditiv-pentru-adulti-1.png"/><div style="display:flex;gap:8px;margin-top:10px;align-items:center;flex-wrap:wrap" aria-label="Galerie imagini aparat auditiv"><button type="button" onclick="selectHearingImage(this)" aria-label="Afișează imaginea 1 din 3" aria-pressed="true" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:0;width:82px;height:82px;overflow:hidden;cursor:pointer;flex:0 0 82px"><img alt="Aparat auditiv pentru adulți – prezentare în locuință" src="../assets/images/aparat-auditiv-pentru-adulti-1.png" style="display:block;width:100%;height:100%;object-fit:cover"/></button><button type="button" onclick="selectHearingImage(this)" aria-label="Afișează imaginea 2 din 3" aria-pressed="false" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:0;width:82px;height:82px;overflow:hidden;cursor:pointer;flex:0 0 82px"><img alt="Aparat auditiv pentru adulți – utilizare în timpul conversației" src="../assets/images/aparat-auditiv-pentru-adulti-2.png" style="display:block;width:100%;height:100%;object-fit:cover"/></button><button type="button" onclick="selectHearingImage(this)" aria-label="Afișează imaginea 3 din 3" aria-pressed="false" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:0;width:82px;height:82px;overflow:hidden;cursor:pointer;flex:0 0 82px"><img alt="Aparat auditiv pentru adulți – vedere detaliată a produsului și ambalajului" src="../assets/images/aparat-auditiv-pentru-adulti-3.png" style="display:block;width:100%;height:100%;object-fit:cover"/></button></div></div>
+<div class="product-detail-image"><img alt="Aparat auditiv pentru adulți – prezentare în locuință" id="mainProductImage" src="../assets/images/aparat-auditiv-pentru-adulti-1.png"/><div class="hearing-gallery" style="display:flex;gap:8px;margin-top:10px;align-items:center;flex-wrap:wrap" aria-label="Galerie imagini aparat auditiv"><button type="button" onclick="selectHearingImage(this)" aria-label="Afișează imaginea 1 din 3" aria-pressed="true" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:0;width:82px;height:82px;overflow:hidden;cursor:pointer;flex:0 0 82px"><img alt="Aparat auditiv pentru adulți – prezentare în locuință" src="../assets/images/aparat-auditiv-pentru-adulti-1.png" style="display:block;width:100%;height:100%;object-fit:cover"/></button><button type="button" onclick="selectHearingImage(this)" aria-label="Afișează imaginea 2 din 3" aria-pressed="false" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:0;width:82px;height:82px;overflow:hidden;cursor:pointer;flex:0 0 82px"><img alt="Aparat auditiv pentru adulți – utilizare în timpul conversației" src="../assets/images/aparat-auditiv-pentru-adulti-2.png" style="display:block;width:100%;height:100%;object-fit:cover"/></button><button type="button" onclick="selectHearingImage(this)" aria-label="Afișează imaginea 3 din 3" aria-pressed="false" style="border:1px solid #d8dfe8;background:#fff;border-radius:8px;padding:0;width:82px;height:82px;overflow:hidden;cursor:pointer;flex:0 0 82px"><img alt="Aparat auditiv pentru adulți – vedere detaliată a produsului și ambalajului" src="../assets/images/aparat-auditiv-pentru-adulti-3.png" style="display:block;width:100%;height:100%;object-fit:cover"/></button></div></div>
 <div class="product-detail-copy">
 <span class="detail-category">Beauty</span>
 <h1>Aparat Auditiv pentru Adulți</h1>
