@@ -1787,4 +1787,16 @@ window.PRODUCTS = [
     "image": "assets/images/proiector-rotativ-stele-luna-star-master-ambalaj.png",
     "featured": false
   },
+    {
+    "id": 133,
+    "slug": "aparat-auditiv-pentru-adulti",
+    "name": "Aparat Auditiv pentru Adulți",
+    "description": "Aparatul auditiv compact pentru adulți</strong> este un dispozitiv conceput pentru a sprijini perceperea sunetelor din mediul înconjurător.",
+    "price": "0 Lei",
+    "stock": "0 Buc.",
+    "video": "",
+    "category": "Gadgeturi și accesorii",
+    "image": "assets/images/aparat-auditiv-pentru-adulti-3.png",
+    "featured": false
+  },
 ];
